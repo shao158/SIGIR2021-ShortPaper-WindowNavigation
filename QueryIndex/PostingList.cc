@@ -1,3 +1,33 @@
+/*****************************************************************************
+Copyright (c) 2020-2021 The Regents of the University of California
+All rights reserved
+
+Redistribution and use in source and binary forms, with or without modification 
+are permitted provided that the following conditions are met:
+
+1. Redistributions of source code and related material must retain
+   this copyright notice, this list of conditions and the following disclaimer. 
+
+2. Neither the name of the University of California at Santa Barbara nor the
+   names of its contributors may be used to endorse or promote products derived 
+   from this software without specific prior written permission. 
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED 
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF 
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO 
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT 
+OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*****************************************************************************/
+
+/*
+Authors: Jinjin Shao
+*/
+
 #include "PostingList.h"
 
 #include <algorithm>
@@ -108,7 +138,6 @@ void PostingList::StartIteration() {
   uint32_t *uncompressed_data = new uint32_t[2 * 1000 * 1000];
   uint32_t *tmp_posting_holder = new uint32_t[document_frequency * 2];
 
-  // std::cout << "Posting: ";
   for (size_t i = 0; i < binary_index_offset.size(); i++) {
     index_file.seekg(binary_index_offset[i]);
     index_file.read((char *)compressed_data, binary_index_length[i]);
@@ -122,13 +151,10 @@ void PostingList::StartIteration() {
       if (j % 2 == 0 && j > 0) {
         tmp_posting_holder[ind + j] += tmp_posting_holder[ind + j - 2];
       }
-      // std::cout << tmp_posting_holder[ind + j] << " ";
     }
 
     ind += n_uncompressed_data;
   }
-
-  // std::cout << std::endl;
 
   assert(ind == document_frequency * 2);
   if (variable_size_blocks.empty()) {
@@ -233,95 +259,6 @@ bool PostingList::NextShallow(uint32_t target_doc_id) {
   size_t target_block_ind = curr_block_ind;
   while (target_block_ind < count_posting_blocks
       && metadata_list[target_block_ind].last_doc_id < target_doc_id) {
-    target_block_ind += 1;
-  }
-
-  if (target_block_ind == count_posting_blocks) {
-    curr_block_ind = count_posting_blocks;
-    curr_document_id = NUM_TOTAL_DOC + 1;
-    curr_block_loaded = true;
-    return false;
-  }
-
-  if (target_block_ind == curr_block_ind) {
-    return true;
-  }
-
-  count_spm += 1;
-
-  curr_block_ind = target_block_ind;
-  curr_block_size = 0;
-  curr_block_max = metadata_list[curr_block_ind].block_max_score;
-
-  curr_block_last_document_id = metadata_list[curr_block_ind].last_doc_id;
-
-  curr_doc_ind = 0;
-  curr_document_id = 0;
-  curr_document_tf = 0;
-
-  curr_block_loaded = false;
-
-  return true;
-}
-
-bool PostingList::NextFancy(uint32_t target_doc_id) {
-  if (target_doc_id <= curr_document_id) return true;
-
-  count_dpm += 1;
-
-  if (!curr_block_loaded) {                                                   
-    assert(LoadPostingBlock(curr_block_ind));                                 
-  }
-
-  size_t target_block_ind = curr_block_ind;
-  while (target_block_ind < count_posting_blocks
-      && (metadata_list[target_block_ind].block_max_score + 1e-6
-              < fancy_list_threshold
-          || metadata_list[target_block_ind].last_doc_id < target_doc_id)) {
-    target_block_ind += 1;
-  }
-
-  if (target_block_ind == count_posting_blocks) {
-    curr_block_ind = count_posting_blocks;
-    curr_document_id = NUM_TOTAL_DOC + 1;
-    curr_block_loaded = true;
-    return false;
-  }
-
-  if (target_block_ind != curr_block_ind) {
-    LoadPostingBlock(target_block_ind);
-  }
-
-  while (curr_doc_ind < curr_block_size
-      && (decoded_posting_blocks[curr_block_ind][curr_doc_ind * 2 + 1]
-              < fancy_list_threshold
-          || decoded_posting_blocks[curr_block_ind][curr_doc_ind * 2]
-              < target_doc_id)) {
-    curr_doc_ind += 1;
-  }
-  
-  if (curr_doc_ind < curr_block_size) {
-    curr_document_id =
-        decoded_posting_blocks[curr_block_ind][curr_doc_ind * 2];
-    curr_document_tf =
-        decoded_posting_blocks[curr_block_ind][curr_doc_ind * 2 + 1];
-  } else {
-    assert(curr_doc_ind == curr_block_size);
-    NextFancy(
-        decoded_posting_blocks[curr_block_ind][curr_doc_ind * 2 - 2] + 1);
-  }
-
-  return true;
-}
-
-bool PostingList::NextShallowFancy(uint32_t target_doc_id) {
-  if (target_doc_id <= curr_document_id) return true;
-
-  size_t target_block_ind = curr_block_ind;
-  while (target_block_ind < count_posting_blocks
-      && (metadata_list[target_block_ind].block_max_score + 1e-6
-              < fancy_list_threshold
-          || metadata_list[target_block_ind].last_doc_id < target_doc_id)) {
     target_block_ind += 1;
   }
 
@@ -528,12 +465,6 @@ void PostingList::PackIntoConstantSizedBlocks(uint32_t *data_holder) {
     std::memmove(encoded_posting_blocks[block_id],
                  encoded_data, encoded_len * sizeof(uint32_t));
 
-    /*
-    uint64_t encoded_len = simple9_encode(data_buffer, j * 2, encoded_data);
-    encoded_posting_blocks[block_id] = new uint8_t[encoded_len];
-    std::memmove(encoded_posting_blocks[block_id], encoded_data, encoded_len);
-    */
-
     global_max_tf = std::max(global_max_tf, curr_max_tf);
 
     metadata_list[block_id].first_doc_id = data_holder[i * 2];
@@ -626,14 +557,6 @@ void PostingList::PackIntoVariableSizedBlocks(uint32_t *data_holder) {
     std::memmove(encoded_posting_blocks[block_id],
                  encoded_data, encoded_len * sizeof(uint32_t));
 
-    /*
-    uint64_t encoded_len = simple9_encode(data_buffer, j * 2, encoded_data);
-    assert(encoded_len <= variable_size_blocks[block_id] * 2 * 4
-        || encoded_len <= 1024);
-    encoded_posting_blocks[block_id] = new uint8_t[encoded_len];
-    std::memmove(encoded_posting_blocks[block_id], encoded_data, encoded_len);
-    */
-
     global_max_tf = std::max(global_max_tf, curr_max_tf);
 
     metadata_list[block_id].first_doc_id = data_holder[i * 2];
@@ -652,8 +575,6 @@ void PostingList::PackIntoVariableSizedBlocks(uint32_t *data_holder) {
 bool PostingList::LoadPostingBlock(size_t block_id) {
   // assert(block_id >= 0 && block_id < count_posting_blocks);
 
-  // std::cout << "Posting block: ";
-
   if (decoded_posting_blocks[block_id] == nullptr) {
     decoded_posting_blocks[block_id] =
         new uint32_t[decoded_block_sizes[block_id] * 2];
@@ -662,27 +583,16 @@ bool PostingList::LoadPostingBlock(size_t block_id) {
                        encoded_block_sizes[block_id],
                        decoded_posting_blocks[block_id], n_uncompressed_data);
 
-    // std::cout << decoded_block_sizes[block_id] << " " << n_uncompressed_data << std::endl;
-
     for (size_t j = 2; j < decoded_block_sizes[block_id] * 2; j += 2) {
       decoded_posting_blocks[block_id][j] +=
           decoded_posting_blocks[block_id][j - 2];
     }
-
-    /*
-    for (size_t j = 0; j < decoded_block_sizes[block_id] * 2; j++) {
-      std::cout << decoded_posting_blocks[block_id][j] << " ";
-    }
-    */
-    // decoded_block_sizes[block_id] = n_uncompressed_data / 2;
 
     // assert(loaded_block_ids.find(block_id) == loaded_block_ids.end());
     loaded_block_ids.insert(block_id);
     count_loaded_blocks += 1;
     count_decoded_postings += decoded_block_sizes[block_id]; 
   }
-
-  // std::cout << std::endl;
 
   curr_block_ind = block_id;
   curr_block_size = decoded_block_sizes[block_id];

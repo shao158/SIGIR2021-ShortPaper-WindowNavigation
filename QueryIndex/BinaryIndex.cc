@@ -1,3 +1,33 @@
+/*****************************************************************************
+Copyright (c) 2020-2021 The Regents of the University of California
+All rights reserved
+
+Redistribution and use in source and binary forms, with or without modification 
+are permitted provided that the following conditions are met:
+
+1. Redistributions of source code and related material must retain
+   this copyright notice, this list of conditions and the following disclaimer. 
+
+2. Neither the name of the University of California at Santa Barbara nor the
+   names of its contributors may be used to endorse or promote products derived 
+   from this software without specific prior written permission. 
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED 
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF 
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO 
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT 
+OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*****************************************************************************/
+
+/*
+Authors: Jinjin Shao
+*/
+
 #include "BinaryIndex.h"
 
 #include <algorithm>
@@ -254,10 +284,6 @@ std::vector<std::pair<uint32_t, float>> BinaryIndex::RunBMWQuery(
   
   uint32_t end_doc_id = NUM_TOTAL_DOC + 1;
   while (true) {
-    /*
-    std::sort(query_postings.begin(), query_postings.end(), sortByCurrentDoc);
-    */
-
     if (query_postings[0]->CurrentDocumentID() == end_doc_id) break;
     
     /////////////////////////////
@@ -350,21 +376,6 @@ std::vector<std::pair<uint32_t, float>> BinaryIndex::RunBMWQuery(
 
       assert(next_pivot_doc > query_postings[pivot]->CurrentDocumentID());
 
-      /*
-      if (next_pivot_doc <= query_postings[pivot]->CurrentDocumentID()) {
-        std::cout << next_pivot_doc << " " << query_postings[pivot]->CurrentDocumentID() << std::endl; 
-        for (size_t i = 0; i <= pivot; i++) {
-          std::cout << query_postings[i]->CurrentDocumentID() << std::endl;
-          std::cout << query_postings[i]->CurrentBlockLastDocumentID() << std::endl << std::endl;
-        }
-        if (pivot + 1 < query_postings.size()) {
-          std::cout << query_postings[pivot + 1]->CurrentDocumentID() << std::endl;
-        }
-        
-        next_pivot_doc = query_postings[pivot]->CurrentDocumentID() + 1;
-      }
-      */
-      
       if (pivot + 1 < query_postings.size()) {
         next_pivot_doc = std::min(next_pivot_doc,
             query_postings[pivot + 1]->CurrentDocumentID());
@@ -377,18 +388,6 @@ std::vector<std::pair<uint32_t, float>> BinaryIndex::RunBMWQuery(
       query_postings[target_list]->Next(next_pivot_doc);
 
       BubbleDownPostingAfterPivot(query_postings, target_list, pivot);
-
-      /*
-      for (size_t i = 0; i <= pivot; i++) {
-        query_postings[i]->Next(next_pivot_doc);
-      }
-
-      if (pivot + 1 < query_postings.size()) {
-        query_postings[pivot + 1]->Next(next_pivot_doc);
-      }
-      */
-
-      // std::sort(query_postings.begin(), query_postings.end(), sortByCurrentDoc);  
     }
   }
 
@@ -753,21 +752,7 @@ std::vector<std::pair<uint32_t, float>> BinaryIndex::RunTPQuery(
   for (int i = 0; i < query_postings.size(); i++) {
     count_total_blocks += query_postings[i]->CountPostingBlocks();
   }
-  // If z_percentage is a real value smaller than 1.0,
-  // take it as a percentage parameter in linear-based sampling.
-  // If z_percentage is a real value larger than 1.0,
-  // take it as a absolution number parameter in fixed sampling.
   float z_percentage = 0.01;
-  /*
-  int max_num_intervals = 1;
-  if (z_percentage < 1.0) {
-    max_num_intervals = std::max(max_num_intervals,
-                                 int (z_percentage * count_total_blocks) );
-  } else {
-    max_num_intervals = std::max(max_num_intervals,
-                                 int (z_percentage) );
-  }
-  */
 
   std::vector<int> vec_interval_size;
 
