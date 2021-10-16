@@ -3,7 +3,7 @@ SRC1 = $(APP1).cc
 OBJ = SIMD-BP/bitpacking.o SIMD-BP/simdbitpacking.o
 
 ## change this according to your installation of indri
-prefix = /home/shao158/Documents/indri
+prefix = /share/indri
 
 exec_prefix = ${prefix}
 libdir = ${exec_prefix}/lib

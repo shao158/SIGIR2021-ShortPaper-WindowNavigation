@@ -92,8 +92,7 @@ static bool sortIntervalsByScore(
 BinaryIndex::BinaryIndex(const char* index_file_path,
                          const char* vocabulary_file_path,
                          size_t dataset_size,
-                         size_t constant_block_size,
-                         const char* block_variable_size_file_path)
+                         size_t constant_block_size)
     : NUM_TOTAL_DOC(dataset_size) {
   vocabulary_size = 0;
 
@@ -114,15 +113,15 @@ BinaryIndex::BinaryIndex(const char* index_file_path,
     return;
   }
 
-  std::ifstream block_size_file(block_variable_size_file_path, std::ios::in);
-  if (constant_block_size == 0 && !block_size_file.is_open()) {
-    index_file.close();
-    vocabulary_file.close();
-    std::cerr << "Failed to open block size file: "
-              << block_variable_size_file_path
-              << std::endl;
-    return;
-  }
+  // std::ifstream block_size_file(block_variable_size_file_path, std::ios::in);
+  // if (constant_block_size == 0 && !block_size_file.is_open()) {
+  //   index_file.close();
+  //   vocabulary_file.close();
+  //   std::cerr << "Failed to open block size file: "
+  //             << block_variable_size_file_path
+  //             << std::endl;
+  //   return;
+  // }
 
   // Start to build this BinaryIndex from all opened files.
 
@@ -135,24 +134,24 @@ BinaryIndex::BinaryIndex(const char* index_file_path,
     PostingList* curr = nullptr;
     
     if (constant_block_size == 0) {
-      if (!getline(block_size_file, line)) {
-        std::cerr << "Failed to read a block size info. " << std::endl;
-        succ = false;
-        break;
-      }
-      std::istringstream iss2(line);
-      std::vector<std::string> block_size_info( 
-          std::istream_iterator<std::string>{iss2},
-          std::istream_iterator<std::string>());
-      if (!block_size_info[0].compare(vocabulary_info[0])) {
-        curr = new PostingList(index_file_path,
-                               vocabulary_info, block_size_info,
-                               constant_block_size, NUM_TOTAL_DOC);
-      } else {
-        std::cerr << "Block size info has a mismatch: "
-                  << block_size_info[0] << " vs. " << vocabulary_info[0]
-                  << std::endl;
-      }
+      // if (!getline(block_size_file, line)) {
+      //   std::cerr << "Failed to read a block size info. " << std::endl;
+      //   succ = false;
+      //   break;
+      // }
+      // std::istringstream iss2(line);
+      // std::vector<std::string> block_size_info( 
+      //     std::istream_iterator<std::string>{iss2},
+      //     std::istream_iterator<std::string>());
+      // if (!block_size_info[0].compare(vocabulary_info[0])) {
+      //   curr = new PostingList(index_file_path,
+      //                          vocabulary_info, block_size_info,
+      //                          constant_block_size, NUM_TOTAL_DOC);
+      // } else {
+      //   std::cerr << "Block size info has a mismatch: "
+      //             << block_size_info[0] << " vs. " << vocabulary_info[0]
+      //             << std::endl;
+      // }
     } else {
       curr = new PostingList(index_file_path,
                              vocabulary_info, std::vector<std::string>(),
@@ -174,7 +173,7 @@ BinaryIndex::BinaryIndex(const char* index_file_path,
 
   index_file.close();
   vocabulary_file.close();
-  block_size_file.close();
+  // block_size_file.close();
 }
 
 BinaryIndex::~BinaryIndex() {

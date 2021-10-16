@@ -78,8 +78,7 @@ public:
   explicit BinaryIndex(const char* index_file_path,
                        const char* vocabulary_file_path,
                        size_t dataset_size,
-                       size_t constant_block_size,
-                       const char* block_variable_size_file_path);
+                       size_t constant_block_size);
 
   BinaryIndex(const BinaryIndex&) = delete;
 

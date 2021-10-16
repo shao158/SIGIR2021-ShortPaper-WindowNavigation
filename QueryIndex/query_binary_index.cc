@@ -48,7 +48,6 @@ int main(int argc, char** argv) {
               << "query_file "
               << "retrieval_method "
               << "constant_block_size "
-              << "block_size_file "
               << "top_k" << std::endl;
     return 0;
   }
@@ -57,8 +56,7 @@ int main(int argc, char** argv) {
       /*index_file=*/argv[1],
       /*vocabulary_file=*/argv[2],
       /*dataset_size=*/kTotalNumDocClueweb,
-      /*constant_block_size=*/std::stoll(argv[5]),
-      /*block_size_file=*/argv[6]);
+      /*constant_block_size=*/std::stoll(argv[5]));
   if (my_index->GetVocabularySize() == 0) {
     std::cerr << "Failed to init a BinaryIndex. " << std::endl;
     delete my_index;
@@ -102,7 +100,7 @@ int main(int argc, char** argv) {
     my_index->Query(/*query_keywords=*/dedup_query_keywords,
                     /*query_keywords_frequency=*/query_keywords_frequency,
                     /*retrieval_method=*/argv[4],
-                    /*top_k=*/std::stoi(argv[7]));
+                    /*top_k=*/std::stoi(argv[6]));
   }
 
   query_file.close();
