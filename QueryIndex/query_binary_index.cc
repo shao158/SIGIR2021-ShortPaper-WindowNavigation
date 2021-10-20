@@ -40,7 +40,7 @@ Authors: Jinjin Shao
 static constexpr size_t kTotalNumDocClueweb = 33836981;
 
 int main(int argc, char** argv) {
-  if (argc != 8) {
+  if (argc != 7) {
     std::cerr << "Usage: "
               << "./query_binary_index "
               << "binary_index_file "

@@ -43,7 +43,7 @@ using namespace FastPForLib;
 static std::vector<float> InitializeClueWebNormDocLen() {
   std::vector<float> res(33836981, 0);
   std::string tmp_file_path = 
-      "/home/shao158/Documents/datasets/clueweb_33M_doc_normalized_len.txt";
+      "/share/clueweb_33M_doc_normalized_len.txt";
   std::ifstream doc_len_file(tmp_file_path.c_str(), std::ios::in);
   assert(doc_len_file.is_open());
 
