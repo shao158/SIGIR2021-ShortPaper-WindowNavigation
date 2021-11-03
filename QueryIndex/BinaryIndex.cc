@@ -89,10 +89,12 @@ static bool sortIntervalsByScore(
   return (a.second > b.second);
 }
 
-BinaryIndex::BinaryIndex(const char* index_file_path,
+BinaryIndex::BinaryIndex(const char* norm_doc_len_path,
+                         const char* index_file_path,
                          const char* vocabulary_file_path,
                          size_t dataset_size,
-                         size_t constant_block_size)
+                         size_t constant_block_size,
+			 bool is_bm25)
     : NUM_TOTAL_DOC(dataset_size) {
   vocabulary_size = 0;
 
@@ -153,9 +155,9 @@ BinaryIndex::BinaryIndex(const char* index_file_path,
       //             << std::endl;
       // }
     } else {
-      curr = new PostingList(index_file_path,
+      curr = new PostingList(norm_doc_len_path, index_file_path,
                              vocabulary_info, std::vector<std::string>(),
-                             constant_block_size, NUM_TOTAL_DOC);
+                             constant_block_size, NUM_TOTAL_DOC, is_bm25);
     }
 
     if (curr == nullptr) {
