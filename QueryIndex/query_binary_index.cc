@@ -43,13 +43,13 @@ int main(int argc, char** argv) {
   if (argc != 9) {
     std::cerr << "Usage: "
               << "./query_binary_index "
-	      << "norm_doc_len_path"
+	      << "norm_doc_len_path "
               << "binary_index_file "
               << "vocabulary_file "
               << "query_file "
               << "retrieval_method "
               << "constant_block_size "
-              << "top_k" << "score[BM25, DeepImpact]" << std::endl;
+              << "top_k " << "score[BM25, DeepImpact]" << std::endl;
     return 0;
   }
 
