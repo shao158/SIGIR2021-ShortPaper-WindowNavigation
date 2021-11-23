@@ -93,7 +93,8 @@ public:
   size_t GetVocabularySize() const { return vocabulary_size; }
 
   // Queries the index and prints out the top-k & profiling results to stdout.
-  void Query(const std::vector<std::string>& query_keywords,
+  void Query(const std::string query_id,
+             const std::vector<std::string>& query_keywords,
              const std::vector<uint64_t>& query_keywords_frequency,
              const char* retrieval_method,
              int topK);

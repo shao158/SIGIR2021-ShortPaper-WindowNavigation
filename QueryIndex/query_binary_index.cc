@@ -83,7 +83,11 @@ int main(int argc, char** argv) {
 
   std::string line;
   while (getline(query_file, line)) {
-    std::istringstream iss(line);
+    std::istringstream iss0(line);
+    std::string qid,query;
+    std::getline(iss0,qid,'\t');
+    std::getline(iss0,query);
+    std::istringstream iss(query);
     std::vector<std::string> query_keywords(
         std::istream_iterator<std::string>{iss},
         std::istream_iterator<std::string>());
@@ -105,7 +109,8 @@ int main(int argc, char** argv) {
       query_keywords_frequency.push_back(count_iter->second);
     }
     
-    my_index->Query(/*query_keywords=*/dedup_query_keywords,
+    my_index->Query(/*query_id=*/qid,
+                    /*query_keywords=*/dedup_query_keywords,
                     /*query_keywords_frequency=*/query_keywords_frequency,
                     /*retrieval_method=*/argv[5],
                     /*top_k=*/std::stoi(argv[7]));
