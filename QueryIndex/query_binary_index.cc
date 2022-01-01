@@ -40,25 +40,31 @@ Authors: Jinjin Shao
 static constexpr size_t kTotalNumDocClueweb = 33836981;
 
 int main(int argc, char** argv) {
-  if (argc != 8) {
+  if (argc != 9) {
     std::cerr << "Usage: "
               << "./query_binary_index "
+	      << "norm_doc_len_path "
               << "binary_index_file "
               << "vocabulary_file "
               << "query_file "
               << "retrieval_method "
               << "constant_block_size "
-              << "block_size_file "
-              << "top_k" << std::endl;
+              << "top_k " << "score[BM25, DeepImpact]" << std::endl;
     return 0;
   }
 
+  bool is_bm25 = false;
+  if (!strcmp(argv[8], "BM25")) {
+    is_bm25 = true;
+  }
+
   BinaryIndex *my_index = new BinaryIndex(
-      /*index_file=*/argv[1],
-      /*vocabulary_file=*/argv[2],
+      /*norm_doc_len=*/argv[1],
+      /*index_file=*/argv[2],
+      /*vocabulary_file=*/argv[3],
       /*dataset_size=*/kTotalNumDocClueweb,
-      /*constant_block_size=*/std::stoll(argv[5]),
-      /*block_size_file=*/argv[6]);
+      /*constant_block_size=*/std::stoll(argv[6]),
+      /*is_bm25*/is_bm25);
   if (my_index->GetVocabularySize() == 0) {
     std::cerr << "Failed to init a BinaryIndex. " << std::endl;
     delete my_index;
@@ -68,7 +74,7 @@ int main(int argc, char** argv) {
             << my_index->GetVocabularySize()
             << std::endl;
 
-  std::ifstream query_file(argv[3], std::ios::in);
+  std::ifstream query_file(argv[4], std::ios::in);
   if (!query_file.is_open()) {
     std::cerr << "Failed to open the query file. " << std::endl;
     delete my_index;
@@ -77,7 +83,11 @@ int main(int argc, char** argv) {
 
   std::string line;
   while (getline(query_file, line)) {
-    std::istringstream iss(line);
+    std::istringstream iss0(line);
+    std::string qid,query;
+    std::getline(iss0,qid,'\t');
+    std::getline(iss0,query);
+    std::istringstream iss(query);
     std::vector<std::string> query_keywords(
         std::istream_iterator<std::string>{iss},
         std::istream_iterator<std::string>());
@@ -99,9 +109,10 @@ int main(int argc, char** argv) {
       query_keywords_frequency.push_back(count_iter->second);
     }
     
-    my_index->Query(/*query_keywords=*/dedup_query_keywords,
+    my_index->Query(/*query_id=*/qid,
+                    /*query_keywords=*/dedup_query_keywords,
                     /*query_keywords_frequency=*/query_keywords_frequency,
-                    /*retrieval_method=*/argv[4],
+                    /*retrieval_method=*/argv[5],
                     /*top_k=*/std::stoi(argv[7]));
   }
 

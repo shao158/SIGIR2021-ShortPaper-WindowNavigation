@@ -1,0 +1,89 @@
+ndcg                  	all	0.3148	recip_rank            	all	0.2652	bmw_128_10_DeepImpact_NS
+ndcg                  	all	0.3177	recip_rank            	all	0.2673	bmw_128_10_DeepImpact_S
+ndcg                  	all	0.2662	recip_rank            	all	0.2198	bmw_128_10_BM25_NS
+ndcg                  	all	0.2434	recip_rank            	all	0.1991	bmw_128_10_BM25_S
+
+ndcg                  	all	0.2940	recip_rank            	all	0.2089	bmw_128_100_BM25_S
+ndcg                  	all	0.3172	recip_rank            	all	0.2297	bmw_128_100_BM25_NS
+ndcg                  	all	0.3703	recip_rank            	all	0.2775	bmw_128_100_DeepImpact_S
+ndcg                  	all	0.3674	recip_rank            	all	0.2755	bmw_128_100_DeepImpact_NS
+
+ndcg                  	all	0.3373	recip_rank            	all	0.2303	bmw_128_1000_BM25_NS
+ndcg                  	all	0.3152	recip_rank            	all	0.2096	bmw_128_1000_BM25_S
+ndcg                  	all	0.3848	recip_rank            	all	0.2761	bmw_128_1000_DeepImpact_NS
+ndcg                  	all	0.3875	recip_rank            	all	0.2781	bmw_128_1000_DeepImpact_S
+
+ndcg                  	all	0.2662	recip_rank            	all	0.2198	bmw_256_10_BM25_NS
+ndcg                  	all	0.2434	recip_rank            	all	0.1991	bmw_256_10_BM25_S
+ndcg                  	all	0.3177	recip_rank            	all	0.2673	bmw_256_10_DeepImpact_S
+ndcg                  	all	0.3148	recip_rank            	all	0.2652	bmw_256_10_DeepImpact_NS
+
+ndcg                  	all	0.3674	recip_rank            	all	0.2755	bmw_256_100_DeepImpact_NS
+ndcg                  	all	0.3703	recip_rank            	all	0.2775	bmw_256_100_DeepImpact_S
+ndcg                  	all	0.3172	recip_rank            	all	0.2297	bmw_256_100_BM25_NS
+ndcg                  	all	0.2940	recip_rank            	all	0.2089	bmw_256_100_BM25_S
+
+ndcg                  	all	0.3373	recip_rank            	all	0.2303	bmw_256_1000_BM25_NS
+ndcg                  	all	0.3152	recip_rank            	all	0.2096	bmw_256_1000_BM25_S
+ndcg                  	all	0.3848	recip_rank            	all	0.2761	bmw_256_1000_DeepImpact_NS
+ndcg                  	all	0.3875	recip_rank            	all	0.2781	bmw_256_1000_DeepImpact_S
+
+ndcg                  	all	0.3148	recip_rank            	all	0.2652	bmw_512_10_DeepImpact_NS
+ndcg                  	all	0.3177	recip_rank            	all	0.2673	bmw_512_10_DeepImpact_S
+ndcg                  	all	0.2662	recip_rank            	all	0.2198	bmw_512_10_BM25_NS
+ndcg                  	all	0.2434	recip_rank            	all	0.1991	bmw_512_10_BM25_S
+
+ndcg                  	all	0.3674	recip_rank            	all	0.2755	bmw_512_100_DeepImpact_NS
+ndcg                  	all	0.3172	recip_rank            	all	0.2297	bmw_512_100_BM25_NS
+ndcg                  	all	0.3703	recip_rank            	all	0.2775	bmw_512_100_DeepImpact_S
+ndcg                  	all	0.2940	recip_rank            	all	0.2089	bmw_512_100_BM25_S
+
+ndcg                  	all	0.3848	recip_rank            	all	0.2761	bmw_512_1000_DeepImpact_NS
+ndcg                  	all	0.3152	recip_rank            	all	0.2096	bmw_512_1000_BM25_S
+ndcg                  	all	0.3373	recip_rank            	all	0.2303	bmw_512_1000_BM25_NS
+ndcg                  	all	0.3875	recip_rank            	all	0.2781	bmw_512_1000_DeepImpact_S
+
+ndcg                  	all	0.3175	recip_rank            	all	0.2672	tp_128_10_DeepImpact_S
+ndcg                  	all	0.3148	recip_rank            	all	0.2652	tp_128_10_DeepImpact_NS
+ndcg                  	all	0.2434	recip_rank            	all	0.1991	tp_128_10_BM25_S
+ndcg                  	all	0.2662	recip_rank            	all	0.2198	tp_128_10_BM25_NS
+
+ndcg                  	all	0.2940	recip_rank            	all	0.2089	tp_128_100_BM25_S
+ndcg                  	all	0.3675	recip_rank            	all	0.2755	tp_128_100_DeepImpact_NS
+ndcg                  	all	0.3172	recip_rank            	all	0.2297	tp_128_100_BM25_NS
+ndcg                  	all	0.3703	recip_rank            	all	0.2775	tp_128_100_DeepImpact_S
+
+ndcg                  	all	0.3875	recip_rank            	all	0.2781	tp_128_1000_DeepImpact_S
+ndcg                  	all	0.3152	recip_rank            	all	0.2096	tp_128_1000_BM25_S
+ndcg                  	all	0.3848	recip_rank            	all	0.2761	tp_128_1000_DeepImpact_NS
+ndcg                  	all	0.3373	recip_rank            	all	0.2303	tp_128_1000_BM25_NS
+
+ndcg                  	all	0.3174	recip_rank            	all	0.2672	tp_256_10_DeepImpact_S
+ndcg                  	all	0.2662	recip_rank            	all	0.2198	tp_256_10_BM25_NS
+ndcg                  	all	0.3149	recip_rank            	all	0.2652	tp_256_10_DeepImpact_NS
+ndcg                  	all	0.2434	recip_rank            	all	0.1991	tp_256_10_BM25_S
+
+ndcg                  	all	0.3675	recip_rank            	all	0.2755	tp_256_100_DeepImpact_NS
+ndcg                  	all	0.3704	recip_rank            	all	0.2775	tp_256_100_DeepImpact_S
+ndcg                  	all	0.3172	recip_rank            	all	0.2297	tp_256_100_BM25_NS
+ndcg                  	all	0.2940	recip_rank            	all	0.2089	tp_256_100_BM25_S
+
+ndcg                  	all	0.3848	recip_rank            	all	0.2761	tp_256_1000_DeepImpact_NS
+ndcg                  	all	0.3875	recip_rank            	all	0.2781	tp_256_1000_DeepImpact_S
+ndcg                  	all	0.3152	recip_rank            	all	0.2096	tp_256_1000_BM25_S
+ndcg                  	all	0.3373	recip_rank            	all	0.2303	tp_256_1000_BM25_NS
+
+ndcg                  	all	0.2434	recip_rank            	all	0.1991	tp_512_10_BM25_S
+ndcg                  	all	0.3175	recip_rank            	all	0.2672	tp_512_10_DeepImpact_S
+ndcg                  	all	0.2662	recip_rank            	all	0.2198	tp_512_10_BM25_NS
+ndcg                  	all	0.3149	recip_rank            	all	0.2653	tp_512_10_DeepImpact_NS
+
+ndcg                  	all	0.3703	recip_rank            	all	0.2775	tp_512_100_DeepImpact_S
+ndcg                  	all	0.3172	recip_rank            	all	0.2297	tp_512_100_BM25_NS
+ndcg                  	all	0.3674	recip_rank            	all	0.2755	tp_512_100_DeepImpact_NS
+ndcg                  	all	0.2940	recip_rank            	all	0.2089	tp_512_100_BM25_S
+
+ndcg                  	all	0.3152	recip_rank            	all	0.2096	tp_512_1000_BM25_S
+ndcg                  	all	0.3848	recip_rank            	all	0.2761	tp_512_1000_DeepImpact_NS
+ndcg                  	all	0.3875	recip_rank            	all	0.2781	tp_512_1000_DeepImpact_S
+ndcg                  	all	0.3373	recip_rank            	all	0.2303	tp_512_1000_BM25_NS

@@ -102,16 +102,20 @@ private:
 
   float CalculateBM25(uint32_t tf, uint32_t doc_id) const;
 
-  static const std::vector<float> norm_doc_len;
+  static std::vector<float> norm_doc_len;
 
   FastPForLib::IntegerCODEC* codec;
 
+  bool isBM25;
+
 public:
-  explicit PostingList(const char* index_file_path,
+  explicit PostingList(const char* norm_doc_len_file, 
+                       const char* index_file_path,
                        const std::vector<std::string>& vocabulary_info,
                        const std::vector<std::string>& block_size_info,
                        size_t constant_block_size,
-                       size_t num_total_doc);
+                       size_t num_total_doc,
+		       bool is_bm25);
 
   PostingList(const PostingList&) = delete;
 

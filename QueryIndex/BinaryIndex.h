@@ -75,11 +75,12 @@ private:
     float z_percentage, std::vector<int>& vec_interval_size);
 
 public:
-  explicit BinaryIndex(const char* index_file_path,
+  explicit BinaryIndex(const char* norm_doc_len_path,
+                       const char* index_file_path,
                        const char* vocabulary_file_path,
                        size_t dataset_size,
                        size_t constant_block_size,
-                       const char* block_variable_size_file_path);
+		       bool is_bm25);
 
   BinaryIndex(const BinaryIndex&) = delete;
 
@@ -92,7 +93,8 @@ public:
   size_t GetVocabularySize() const { return vocabulary_size; }
 
   // Queries the index and prints out the top-k & profiling results to stdout.
-  void Query(const std::vector<std::string>& query_keywords,
+  void Query(const std::string query_id,
+             const std::vector<std::string>& query_keywords,
              const std::vector<uint64_t>& query_keywords_frequency,
              const char* retrieval_method,
              int topK);

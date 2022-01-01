@@ -1,0 +1,2346 @@
+Query:family,1:obama,1:tree,1
+Start query now. 
+128323 : 18.8457
+20591351 : 18.6489
+17190349 : 18.2915
+18714201 : 18.2207
+18714202 : 18.2173
+11620547 : 18.187
+412360 : 18.1759
+20080413 : 18.1711
+9375937 : 18.1575
+20407313 : 18.1393
+Time cost: 73 ms. 
+Loaded postings blocks: 80202 of 118488
+Number of eval: 259305
+dpm and spm: 558411 0 5132844
+Query:and,1:casino,1:french,1:lick,1:resort,1
+No posting available: french
+Query:getting,1:organized,1
+No posting available: getting
+Query:toilet,1
+Start query now. 
+6962695 : 11.5144
+30468419 : 11.5144
+2080313 : 11.514
+249866 : 11.5082
+1264248 : 11.5072
+30890747 : 11.5058
+31145940 : 11.5057
+331619 : 11.5054
+676757 : 11.5053
+1553287 : 11.5051
+Time cost: 12 ms. 
+Loaded postings blocks: 2767 of 2767
+Number of eval: 177082
+dpm and spm: 177082 0 177082
+Query:college,1:mitchell,1
+Start query now. 
+30882947 : 15.124
+561388 : 15.1211
+21180554 : 15.1183
+352274 : 14.9939
+29334837 : 14.9849
+31072447 : 14.9828
+1471813 : 14.9611
+1856388 : 14.9459
+1856389 : 14.943
+30620771 : 14.9205
+Time cost: 45 ms. 
+Loaded postings blocks: 42920 of 55046
+Number of eval: 287277
+dpm and spm: 491545 0 2746879
+Query:kcs,1
+Start query now. 
+7578395 : 18.9783
+1261860 : 18.871
+26795505 : 18.8693
+25436097 : 18.8549
+2139799 : 18.8419
+30309963 : 18.7516
+30661742 : 18.7507
+6148529 : 18.7066
+31257701 : 18.6828
+19314178 : 18.6698
+Time cost: 0 ms. 
+Loaded postings blocks: 83 of 83
+Number of eval: 5310
+dpm and spm: 5310 0 5310
+Query:air,1:information,1:travel,1
+Start query now. 
+1534749 : 10.8487
+27334779 : 10.8277
+33390655 : 10.7748
+6940988 : 10.7653
+8290866 : 10.7521
+19489857 : 10.7306
+33390657 : 10.7169
+20437338 : 10.7144
+7577469 : 10.7105
+29810602 : 10.7042
+Time cost: 310 ms. 
+Loaded postings blocks: 277267 of 307498
+Number of eval: 2311863
+dpm and spm: 4274642 0 17745033
+Query:appraisals,1
+No posting available: appraisals
+Query:car,1:parts,1:used,1
+No posting available: used
+Query:cheap,1:internet,1
+Start query now. 
+7992719 : 12.9811
+24114850 : 12.9733
+24114966 : 12.9698
+24114826 : 12.9693
+24114851 : 12.9677
+24114858 : 12.9654
+24114761 : 12.9648
+24114842 : 12.962
+24114832 : 12.961
+24114764 : 12.9569
+Time cost: 74 ms. 
+Loaded postings blocks: 60692 of 69751
+Number of eval: 571696
+dpm and spm: 935698 0 3884214
+Query:classes,1:gmat,1:prep,1
+No posting available: classes
+Query:djs,1
+Start query now. 
+3799255 : 12.8014
+7079437 : 12.7999
+29074556 : 12.7781
+17245993 : 12.7763
+24319207 : 12.7755
+24319202 : 12.7752
+29076582 : 12.7621
+12241671 : 12.7569
+3803976 : 12.7487
+9023048 : 12.7481
+Time cost: 6 ms. 
+Loaded postings blocks: 1541 of 1541
+Number of eval: 98597
+dpm and spm: 98597 0 98597
+Query:map,1
+Start query now. 
+7749362 : 2.58783
+1506523 : 2.58707
+22889704 : 2.58658
+12831056 : 2.58652
+4055232 : 2.58628
+25651435 : 2.58618
+7749364 : 2.58615
+7921175 : 2.58607
+191204 : 2.5858
+5252333 : 2.58579
+Time cost: 353 ms. 
+Loaded postings blocks: 124485 of 124485
+Number of eval: 7967032
+dpm and spm: 7967032 0 7967032
+Query:dinosaurs,1
+No posting available: dinosaurs
+Query:espn,1:sports,1
+Start query now. 
+6885022 : 17.9763
+19240192 : 17.9756
+20101938 : 17.9733
+18531422 : 17.9725
+18902270 : 17.9724
+19402507 : 17.9708
+19449698 : 17.9708
+19212089 : 17.9671
+19768301 : 17.9662
+20126173 : 17.9643
+Time cost: 20 ms. 
+Loaded postings blocks: 22509 of 48294
+Number of eval: 153058
+dpm and spm: 216639 0 1440536
+Query:and,1:arizona,1:fish,1:game,1
+Start query now. 
+7960283 : 21.2198
+6601805 : 21.2178
+32729686 : 21.0917
+6346313 : 21.048
+8738140 : 20.9561
+17276219 : 20.8544
+32729910 : 20.8405
+29315794 : 20.8138
+7780171 : 20.7571
+9311934 : 20.7132
+Time cost: 199 ms. 
+Loaded postings blocks: 237618 of 545687
+Number of eval: 515435
+dpm and spm: 1183518 0 15207439
+Query:poker,1:tournaments,1
+No posting available: tournaments
+Query:budget,1:calculator,1:wedding,1
+Start query now. 
+13964240 : 24
+13964251 : 23.9027
+23303487 : 22.4167
+32465450 : 22.3822
+32498077 : 22.1632
+12755021 : 21.6629
+6601926 : 21.6461
+12393847 : 21.6149
+32465434 : 21.5808
+33041805 : 21.5208
+Time cost: 30 ms. 
+Loaded postings blocks: 31080 of 39285
+Number of eval: 123543
+dpm and spm: 306098 0 1989010
+Query:current,1:the,1
+Start query now. 
+16579404 : 1.46256
+16579408 : 1.46256
+22885628 : 1.46221
+6897918 : 1.46218
+22885627 : 1.46216
+18069983 : 1.46213
+7115814 : 1.46206
+16579399 : 1.46198
+18069982 : 1.46197
+6766591 : 1.46175
+Time cost: 1152 ms. 
+Loaded postings blocks: 651075 of 673471
+Number of eval: 22811632
+dpm and spm: 25387812 0 41668788
+Query:defender,1
+No posting available: defender
+Query:volvo,1
+Start query now. 
+1514620 : 13.5939
+31107739 : 13.593
+31247941 : 13.5916
+6939478 : 13.584
+2057140 : 13.5736
+30709379 : 13.5487
+19545121 : 13.5438
+843662 : 13.531
+5707117 : 13.5309
+1339573 : 13.5304
+Time cost: 4 ms. 
+Loaded postings blocks: 1079 of 1079
+Number of eval: 69021
+dpm and spm: 69021 0 69021
+Query:rick,1:warren,1
+Start query now. 
+25746795 : 20.1349
+25746793 : 20.1248
+25746495 : 20.1156
+25746699 : 20.1146
+25746147 : 20.1079
+25746700 : 20.1041
+25746494 : 20.094
+25746796 : 20.0843
+25746794 : 20.072
+5624675 : 20.0634
+Time cost: 22 ms. 
+Loaded postings blocks: 10167 of 10521
+Number of eval: 191067
+dpm and spm: 330373 0 650614
+Query:yahoo,1
+Start query now. 
+1143009 : 7.06957
+2019367 : 7.06881
+30683262 : 7.06831
+30331488 : 7.06815
+30307885 : 7.06812
+31150991 : 7.06781
+30307884 : 7.06774
+1621538 : 7.06766
+1600283 : 7.06729
+31026943 : 7.06663
+Time cost: 67 ms. 
+Loaded postings blocks: 20343 of 20343
+Number of eval: 1301913
+dpm and spm: 1301913 0 1301913
+Query:diversity,1
+Start query now. 
+14611151 : 8.59834
+14374701 : 8.59566
+18333338 : 8.58605
+21907875 : 8.58573
+25286398 : 8.58327
+13903619 : 8.5771
+16647398 : 8.57289
+25398116 : 8.56923
+13734817 : 8.56775
+25286402 : 8.56486
+Time cost: 38 ms. 
+Loaded postings blocks: 10287 of 10287
+Number of eval: 658306
+dpm and spm: 658306 0 658306
+Query:euclid,1
+Start query now. 
+3007839 : 15.0462
+15775176 : 15.0433
+15074032 : 15.0398
+18202933 : 15.0376
+9119977 : 15.0356
+9383973 : 15.0256
+20245922 : 15.0199
+7010898 : 15.0188
+20245920 : 15.0122
+15776995 : 15.0018
+Time cost: 2 ms. 
+Loaded postings blocks: 532 of 532
+Number of eval: 34014
+dpm and spm: 34014 0 34014
+Query:heart,1:lower,1:rate,1
+Start query now. 
+7717350 : 16.9724
+16380482 : 16.9617
+10450958 : 16.93
+6940988 : 16.9284
+1534749 : 16.8881
+27691159 : 16.8445
+20755503 : 16.8139
+5163891 : 16.7676
+11147401 : 16.758
+6912040 : 16.7455
+Time cost: 134 ms. 
+Loaded postings blocks: 104502 of 111282
+Number of eval: 1092324
+dpm and spm: 2400761 0 6688034
+Query:starbucks,1
+No posting available: starbucks
+Query:inuyasha,1
+Start query now. 
+1886406 : 17.7966
+636451 : 17.7963
+1299737 : 17.7911
+843386 : 17.7908
+30848650 : 17.7485
+1475545 : 17.7449
+19314037 : 17.7438
+1395641 : 17.7389
+2145492 : 17.7379
+402563 : 17.7373
+Time cost: 0 ms. 
+Loaded postings blocks: 161 of 161
+Number of eval: 10267
+dpm and spm: 10267 0 10267
+Query:2,1:games,1:ps,1
+Start query now. 
+19758705 : 16.211
+1047957 : 16.2019
+1731194 : 16.1964
+8522663 : 16.1945
+1840027 : 16.1714
+956951 : 16.1617
+162142 : 16.1431
+6810561 : 16.1427
+838726 : 16.1323
+6706805 : 16.1176
+Time cost: 109 ms. 
+Loaded postings blocks: 140327 of 281053
+Number of eval: 347723
+dpm and spm: 679654 0 8980903
+Query:diabetes,1:education,1
+Start query now. 
+5429934 : 14.1603
+17960426 : 14.158
+5429852 : 14.1263
+17960274 : 14.1066
+22704384 : 14.1061
+8956916 : 14.0926
+26215370 : 14.0781
+2364829 : 14.0731
+33731394 : 14.0662
+17659022 : 14.0654
+Time cost: 42 ms. 
+Loaded postings blocks: 46482 of 81675
+Number of eval: 257242
+dpm and spm: 387349 0 2974801
+Query:atari,1
+Start query now. 
+8271352 : 14.3362
+19581339 : 14.3212
+20516814 : 14.3211
+19581341 : 14.3191
+2163643 : 14.3166
+19628353 : 14.316
+8522539 : 14.3131
+6768025 : 14.3118
+19675176 : 14.3114
+19628347 : 14.3107
+Time cost: 3 ms. 
+Loaded postings blocks: 766 of 766
+Number of eval: 49015
+dpm and spm: 49015 0 49015
+Query:design,1:hosting,1:website,1
+No posting available: hosting
+Query:elliptical,1:trainer,1
+No posting available: elliptical
+Query:cell,1:phones,1
+No posting available: phones
+Query:hoboken,1
+Start query now. 
+20274897 : 15.9071
+1553445 : 15.9071
+1553446 : 15.9056
+19825751 : 15.9012
+19923669 : 15.9005
+18590612 : 15.8998
+19755362 : 15.8996
+20203672 : 15.8979
+30449220 : 15.892
+18590611 : 15.8859
+Time cost: 2 ms. 
+Loaded postings blocks: 376 of 376
+Number of eval: 24054
+dpm and spm: 24054 0 24054
+Query:gps,1
+Start query now. 
+19229644 : 10.4119
+384266 : 10.4109
+20262552 : 10.4107
+18944389 : 10.41
+525195 : 10.4099
+16033319 : 10.4093
+18549071 : 10.4091
+19425277 : 10.409
+140636 : 10.4086
+1569733 : 10.4085
+Time cost: 16 ms. 
+Loaded postings blocks: 4575 of 4575
+Number of eval: 292768
+dpm and spm: 292768 0 292768
+Query:chef,1:pampered,1
+No posting available: pampered
+Query:adoption,1:dogs,1:for,1
+Start query now. 
+29902595 : 18.7839
+22165390 : 18.7104
+29890904 : 18.665
+25875667 : 18.6511
+12127396 : 18.64
+11297496 : 18.6241
+25875657 : 18.623
+29890903 : 18.618
+25875666 : 18.5991
+12974686 : 18.597
+Time cost: 107 ms. 
+Loaded postings blocks: 130931 of 467807
+Number of eval: 352568
+dpm and spm: 630320 0 8379537
+Query:disneyland,1:hotel,1
+Start query now. 
+8482724 : 20.7615
+8482698 : 20.7524
+8482731 : 20.7473
+8482696 : 20.7472
+8482695 : 20.7415
+30440462 : 20.6926
+18893203 : 20.6436
+19858352 : 20.6263
+18482449 : 20.6245
+18482447 : 20.6207
+Time cost: 10 ms. 
+Loaded postings blocks: 12203 of 32584
+Number of eval: 48475
+dpm and spm: 74260 0 780934
+Query:michworks,1
+No posting available: michworks
+Query:center,1:convention,1:county,1:orange,1
+Start query now. 
+4852230 : 24.4453
+6718232 : 24.3469
+152094 : 24.3171
+19040402 : 24.2469
+30200210 : 24.245
+1088970 : 24.2349
+1454982 : 24.2102
+18659462 : 24.1923
+18659463 : 24.1794
+19575494 : 24.1656
+Time cost: 130 ms. 
+Loaded postings blocks: 133420 of 164202
+Number of eval: 483894
+dpm and spm: 1279928 0 8538811
+Query:man,1:music,1:the,1
+Start query now. 
+218545 : 9.84101
+1377140 : 9.79246
+1377142 : 9.78535
+6922760 : 9.78322
+1786966 : 9.78148
+1786967 : 9.77696
+6776869 : 9.76705
+30860873 : 9.75574
+30316482 : 9.75471
+585887 : 9.751
+Time cost: 445 ms. 
+Loaded postings blocks: 469983 of 596203
+Number of eval: 3533752
+dpm and spm: 5876072 0 30078865
+Query:garden,1:secret,1:the,1
+Start query now. 
+31108051 : 13.7033
+2076011 : 13.6978
+719989 : 13.6821
+19326058 : 13.6731
+351397 : 13.6719
+19557993 : 13.6708
+30708853 : 13.6515
+31204266 : 13.6501
+20329977 : 13.636
+291981 : 13.5997
+Time cost: 264 ms. 
+Loaded postings blocks: 318977 of 537926
+Number of eval: 1143539
+dpm and spm: 2090503 0 20414423
+Query:map,1:of,1:states,1:the,1:united,1
+Start query now. 
+11761301 : 10.0741
+25064072 : 10.0686
+25064063 : 10.0667
+25291553 : 10.0555
+218545 : 10.0489
+5788953 : 10.0473
+25064070 : 10.0368
+8754726 : 10.0277
+4055144 : 10.0245
+25064068 : 10.0123
+Time cost: 1113 ms. 
+Loaded postings blocks: 1084921 of 1268319
+Number of eval: 7376705
+dpm and spm: 12160523 0 69434818
+Query:panels,1:solar,1
+No posting available: panels
+Query:alexian,1:brothers,1:hospital,1
+No posting available: brothers
+Query:annuity,1:indexed,1
+No posting available: indexed
+Query:antenna,1:wilson,1
+Start query now. 
+9534400 : 21.0845
+11593036 : 20.7248
+14735381 : 20.678
+14735401 : 20.5575
+14735419 : 20.5558
+14735444 : 20.5159
+14735382 : 20.496
+11319237 : 20.4891
+11319236 : 20.4345
+14735423 : 20.3801
+Time cost: 11 ms. 
+Loaded postings blocks: 9917 of 10723
+Number of eval: 64574
+dpm and spm: 123921 0 634610
+Query:designs,1:flame,1
+Start query now. 
+33600561 : 18.0639
+33600580 : 18.0316
+2281306 : 17.8731
+17584747 : 17.8195
+30926984 : 17.8066
+17584763 : 17.8063
+19387425 : 17.7783
+22689776 : 17.7234
+20484673 : 17.72
+33600577 : 17.6986
+Time cost: 23 ms. 
+Loaded postings blocks: 15922 of 17198
+Number of eval: 174762
+dpm and spm: 325733 0 1018971
+Query:dog,1:heat,1
+Start query now. 
+2689501 : 16.2865
+6940988 : 16.2651
+28594805 : 16.2155
+1534749 : 16.2125
+7896214 : 16.2028
+17553254 : 16.1947
+31609437 : 16.1879
+17026426 : 16.1562
+24040111 : 16.1336
+12755465 : 16.1299
+Time cost: 40 ms. 
+Loaded postings blocks: 22642 of 23684
+Number of eval: 334702
+dpm and spm: 608844 0 1448979
+Query:hooves,1:horse,1
+Start query now. 
+30138558 : 25.0341
+9094086 : 25.0169
+13218068 : 24.8832
+30138490 : 24.8446
+29748938 : 24.8445
+30138546 : 24.7952
+26901466 : 24.7713
+30138554 : 24.7118
+4200189 : 24.6291
+20474216 : 24.6037
+Time cost: 4 ms. 
+Loaded postings blocks: 5989 of 13163
+Number of eval: 17135
+dpm and spm: 26655 0 383257
+Query:avp,1
+Start query now. 
+2823286 : 17.8232
+2539618 : 17.812
+15456880 : 17.8118
+2539162 : 17.811
+32112683 : 17.7866
+14498211 : 17.7695
+3508451 : 17.7686
+17139147 : 17.7623
+9064478 : 17.7483
+30091015 : 17.7462
+Time cost: 0 ms. 
+Loaded postings blocks: 158 of 158
+Number of eval: 10056
+dpm and spm: 10056 0 10056
+Query:channel,1:discovery,1:store,1
+Start query now. 
+14498304 : 19.3285
+15359988 : 19.277
+2651294 : 19.1312
+1534749 : 19.1124
+20355171 : 19.0194
+19763969 : 18.9798
+20212085 : 18.9448
+15359989 : 18.9068
+15360038 : 18.7693
+8016044 : 18.7437
+Time cost: 81 ms. 
+Loaded postings blocks: 72249 of 85487
+Number of eval: 494012
+dpm and spm: 1175666 0 4623851
+Query:of,1:president,1:states,1:the,1:united,1
+Start query now. 
+20675596 : 13.0636
+541457 : 13.0611
+6640879 : 13.0571
+1050864 : 13.0553
+165089 : 13.0543
+19176090 : 13.0517
+1439507 : 13.0504
+10831591 : 13.0496
+1586348 : 13.0486
+2033199 : 13.0461
+Time cost: 963 ms. 
+Loaded postings blocks: 950872 of 1182705
+Number of eval: 6572699
+dpm and spm: 11431578 0 60855685
+Query:iron,1
+Start query now. 
+24589737 : 8.69575
+24589738 : 8.69419
+23818093 : 8.69378
+1740959 : 8.69257
+33730794 : 8.6922
+30485424 : 8.69164
+9477871 : 8.69142
+19483276 : 8.69107
+403193 : 8.69102
+20226045 : 8.69094
+Time cost: 39 ms. 
+Loaded postings blocks: 9876 of 9876
+Number of eval: 632035
+dpm and spm: 632035 0 632035
+Query:charleston,1:sc,1:uss,1:yorktown,1
+Start query now. 
+30426546 : 44.5752
+6982044 : 44.5485
+1131277 : 44.0042
+46690 : 42.8808
+27049650 : 42.4443
+30308601 : 42.2762
+1187029 : 42.2302
+843666 : 41.9787
+15698854 : 41.6999
+19279734 : 41.5932
+Time cost: 7 ms. 
+Loaded postings blocks: 8047 of 11372
+Number of eval: 19744
+dpm and spm: 58824 0 514859
+Query:ct,1:jobs,1
+No posting available: jobs
+Query:penguins,1
+No posting available: penguins
+Query:a,1:build,1:fence,1:how,1:to,1
+Start query now. 
+23627314 : 19.2172
+24727055 : 19.1588
+2101989 : 19.0567
+30458574 : 18.9726
+21836 : 18.9595
+1547205 : 18.9388
+29954354 : 18.847
+2102034 : 18.8344
+9075834 : 18.7897
+7729286 : 18.7539
+Time cost: 269 ms. 
+Loaded postings blocks: 312720 of 1126200
+Number of eval: 532831
+dpm and spm: 1091980 0 20014008
+Query:bellevue,1
+Start query now. 
+18246935 : 13.6175
+20500089 : 13.6048
+5091350 : 13.6022
+18828198 : 13.5946
+30574368 : 13.5931
+20364110 : 13.5914
+32059378 : 13.5907
+19612360 : 13.5553
+19096946 : 13.552
+22690810 : 13.5493
+Time cost: 4 ms. 
+Loaded postings blocks: 1042 of 1042
+Number of eval: 66685
+dpm and spm: 66685 0 66685
+Query:worm,1
+Start query now. 
+15702301 : 11.5939
+15702092 : 11.5932
+15702116 : 11.5897
+10855674 : 11.5756
+30485214 : 11.5751
+30705957 : 11.5732
+28432738 : 11.5729
+31026216 : 11.5676
+20720533 : 11.567
+586893 : 11.5653
+Time cost: 12 ms. 
+Loaded postings blocks: 2661 of 2661
+Number of eval: 170248
+dpm and spm: 170248 0 170248
+Query:border,1:patrol,1:texas,1
+Start query now. 
+30403188 : 24.8809
+1705456 : 24.8507
+581334 : 24.7135
+18799849 : 24.7121
+31266879 : 24.6483
+30553602 : 24.6199
+471535 : 24.6112
+17940 : 24.609
+30693479 : 24.6065
+3617898 : 24.5936
+Time cost: 38 ms. 
+Loaded postings blocks: 37475 of 43517
+Number of eval: 178780
+dpm and spm: 434003 0 2398304
+Query:flushing,1
+No posting available: flushing
+Query:moths,1
+No posting available: moths
+Query:korean,1:language,1
+No posting available: korean
+Query:income,1:online,1:return,1:tax,1
+Start query now. 
+15529896 : 17.97
+4293872 : 17.9068
+21887351 : 17.9024
+15283630 : 17.8139
+13444195 : 17.8087
+5532337 : 17.7637
+21192861 : 17.7217
+16261055 : 17.7112
+6797087 : 17.6976
+13444231 : 17.6951
+Time cost: 246 ms. 
+Loaded postings blocks: 244410 of 295020
+Number of eval: 1015609
+dpm and spm: 2336529 0 15642144
+Query:levels,1:vldl,1
+No posting available: levels
+Query:pvc,1
+Start query now. 
+18306510 : 13.7028
+3264881 : 13.7004
+18306512 : 13.6909
+2822446 : 13.6886
+3986719 : 13.678
+6682948 : 13.6772
+985158 : 13.6652
+3265062 : 13.6649
+4728217 : 13.659
+8160634 : 13.6589
+Time cost: 4 ms. 
+Loaded postings blocks: 1004 of 1004
+Number of eval: 64242
+dpm and spm: 64242 0 64242
+Query:instructions,1:sewing,1
+No posting available: instructions
+Query:be,2:is,1:not,1:or,1:question,1:that,1:the,1:to,2
+Start query now. 
+1534749 : 4.23383
+6776869 : 4.23273
+6940988 : 4.23225
+218545 : 4.23166
+1516179 : 4.23024
+239113 : 4.22828
+1513481 : 4.22541
+23792746 : 4.22423
+6986104 : 4.22323
+21899134 : 4.22219
+Time cost: 3369 ms. 
+Loaded postings blocks: 2418766 of 2546654
+Number of eval: 31768556
+dpm and spm: 50412319 0 154800797
+Query:in,1:india,1:living,1
+Start query now. 
+22025731 : 11.3602
+6919913 : 11.2523
+6776869 : 11.2472
+189238 : 11.2308
+23472593 : 11.2224
+20808857 : 11.2126
+8331579 : 11.1988
+208230 : 11.1963
+21278564 : 11.1941
+218545 : 11.1766
+Time cost: 318 ms. 
+Loaded postings blocks: 357122 of 541216
+Number of eval: 1683273
+dpm and spm: 2983731 0 22855764
+Query:sun,1:the,1
+Start query now. 
+28943163 : 6.51226
+30374251 : 6.51054
+206501 : 6.50931
+2080549 : 6.50917
+30952275 : 6.50917
+7025081 : 6.5089
+31051979 : 6.50787
+30530304 : 6.50778
+30857754 : 6.50655
+30809341 : 6.50626
+Time cost: 415 ms. 
+Loaded postings blocks: 390266 of 519958
+Number of eval: 3270057
+dpm and spm: 4309685 0 24976960
+Query:neil,1:young,1
+Start query now. 
+916917 : 16.3258
+299852 : 16.3255
+619922 : 16.3204
+143595 : 16.3192
+20501011 : 16.3171
+1170901 : 16.3137
+6971141 : 16.2589
+800263 : 16.2074
+143643 : 16.1875
+24000205 : 16.1407
+Time cost: 44 ms. 
+Loaded postings blocks: 36893 of 40832
+Number of eval: 288598
+dpm and spm: 477662 0 2361075
+Query:kiwi,1
+Start query now. 
+1104871 : 14.391
+301256 : 14.3906
+1666867 : 14.3756
+20440031 : 14.3642
+30971520 : 14.3519
+37650 : 14.3488
+19913880 : 14.3484
+18662486 : 14.3417
+6669209 : 14.3379
+31082173 : 14.3362
+Time cost: 3 ms. 
+Loaded postings blocks: 739 of 739
+Number of eval: 47276
+dpm and spm: 47276 0 47276
+Query:tornadoes,1
+No posting available: tornadoes
+Query:gardens,1:raised,1
+No posting available: gardens
+Query:bobcat,1
+Start query now. 
+477275 : 15.0275
+18832822 : 15.0083
+19165305 : 15.0068
+20504757 : 15.0047
+20135101 : 14.9988
+1593234 : 14.9967
+32386903 : 14.9959
+1974087 : 14.9951
+19141396 : 14.9949
+6867184 : 14.9925
+Time cost: 2 ms. 
+Loaded postings blocks: 556 of 556
+Number of eval: 35566
+dpm and spm: 35566 0 35566
+Query:dieting,1
+No posting available: dieting
+Query:voyager,1
+Start query now. 
+20028945 : 13.4357
+1514655 : 13.4308
+16094183 : 13.4284
+11611379 : 13.4283
+12796 : 13.4251
+31019968 : 13.4225
+31248030 : 13.4148
+718757 : 13.4089
+16191687 : 13.4052
+30949525 : 13.4052
+Time cost: 4 ms. 
+Loaded postings blocks: 1130 of 1130
+Number of eval: 72294
+dpm and spm: 72294 0 72294
+Query:keyboard,1:reviews,1
+No posting available: reviews
+Query:afghanistan,1
+Start query now. 
+19729904 : 9.00698
+18743320 : 9.00572
+19034634 : 9.00487
+19901381 : 9.00464
+18653692 : 9.00397
+31233687 : 9.00392
+6829900 : 9.00386
+30692551 : 9.00364
+19708522 : 9.00347
+402324 : 9.00347
+Time cost: 30 ms. 
+Loaded postings blocks: 8616 of 8616
+Number of eval: 551385
+dpm and spm: 551385 0 551385
+Query:joints,1
+No posting available: joints
+Query:memory,1
+Start query now. 
+24603723 : 7.12747
+24603698 : 7.12728
+24603634 : 7.12726
+24603635 : 7.12725
+24603727 : 7.12705
+24603669 : 7.12699
+24603574 : 7.12698
+24603563 : 7.12697
+24603651 : 7.12695
+24603646 : 7.12691
+Time cost: 65 ms. 
+Loaded postings blocks: 19865 of 19865
+Number of eval: 1271347
+dpm and spm: 1271347 0 1271347
+Query:continental,1:plates,1
+No posting available: plates
+Query:journal,1:milwaukee,1:sentinel,1
+Start query now. 
+326884 : 29.4693
+30665963 : 29.2435
+26626611 : 29.2287
+30543842 : 29.2056
+19311120 : 29.165
+1338853 : 29.1442
+30590256 : 29.1435
+862369 : 29.0444
+862366 : 29.01
+26109181 : 28.9881
+Time cost: 18 ms. 
+Loaded postings blocks: 23260 of 40345
+Number of eval: 68923
+dpm and spm: 151113 0 1488593
+Query:bart,1:sf,1
+Start query now. 
+22417484 : 23.3639
+19552273 : 23.2206
+6096254 : 23.1701
+6096255 : 23.164
+22417426 : 23.1423
+22417546 : 23.0979
+22417549 : 23.0972
+19712085 : 23.0755
+22417565 : 23.0662
+22417585 : 23.0655
+Time cost: 7 ms. 
+Loaded postings blocks: 4278 of 4842
+Number of eval: 53568
+dpm and spm: 100493 0 273764
+Query:invented,1:music,1:who,1
+No posting available: invented
+Query:forearm,1:pain,1
+Start query now. 
+9953613 : 23.1
+10210586 : 23.0824
+25962315 : 22.8812
+24116769 : 22.8301
+15860380 : 22.8012
+11432465 : 22.7266
+29068445 : 22.6132
+5368943 : 22.602
+33110410 : 22.5767
+6468118 : 22.572
+Time cost: 6 ms. 
+Loaded postings blocks: 8048 of 11361
+Number of eval: 32019
+dpm and spm: 56538 0 515058
+Query:ocd,1
+Start query now. 
+7917109 : 16.2727
+625871 : 16.2581
+1109336 : 16.2548
+1701451 : 16.2544
+2028743 : 16.2532
+79877 : 16.2497
+833855 : 16.2485
+12225051 : 16.2471
+877147 : 16.2468
+1176975 : 16.2467
+Time cost: 1 ms. 
+Loaded postings blocks: 315 of 315
+Number of eval: 20104
+dpm and spm: 20104 0 20104
+Query:mgb,1
+Start query now. 
+33785092 : 19.8595
+714807 : 19.8328
+1327811 : 19.83
+2044575 : 19.812
+8886 : 19.7912
+1125987 : 19.7805
+22189975 : 19.7666
+26182761 : 19.7576
+20472172 : 19.757
+17290465 : 19.7528
+Time cost: 0 ms. 
+Loaded postings blocks: 59 of 59
+Number of eval: 3740
+dpm and spm: 3740 0 3740
+Query:er,1:show,1:tv,1
+Start query now. 
+6968649 : 19.2337
+19282184 : 19.1948
+18465018 : 19.1732
+18897366 : 19.1582
+18531405 : 19.1525
+18531406 : 19.1517
+19935754 : 19.1491
+19935382 : 19.1475
+19408183 : 19.0074
+27011733 : 18.9686
+Time cost: 77 ms. 
+Loaded postings blocks: 93828 of 130967
+Number of eval: 273435
+dpm and spm: 596707 0 6004934
+Query:the,1:wall,1
+Start query now. 
+12831056 : 6.62794
+30591569 : 6.62568
+26494221 : 6.62508
+19528458 : 6.625
+18755811 : 6.62484
+1766254 : 6.62469
+30888312 : 6.62396
+6899938 : 6.62357
+237965 : 6.62326
+23970794 : 6.62138
+Time cost: 397 ms. 
+Loaded postings blocks: 392346 of 518687
+Number of eval: 3116195
+dpm and spm: 4181138 0 25110114
+Query:raffles,1
+No posting available: raffles
+Query:titan,1
+Start query now. 
+6931869 : 12.1466
+31055395 : 12.1437
+1699256 : 12.143
+30533760 : 12.1426
+30377602 : 12.1423
+30593637 : 12.1421
+20036571 : 12.141
+74955 : 12.1399
+31103701 : 12.1396
+529332 : 12.1393
+Time cost: 8 ms. 
+Loaded postings blocks: 2082 of 2082
+Number of eval: 133238
+dpm and spm: 133238 0 133238
+Query:at,1:earn,1:home,1:money,1
+Start query now. 
+7073762 : 12.7731
+4955302 : 12.7452
+24510906 : 12.7273
+14755898 : 12.6752
+18316095 : 12.6465
+26143901 : 12.6381
+33303738 : 12.6283
+16577201 : 12.626
+26346151 : 12.6053
+9712387 : 12.6049
+Time cost: 498 ms. 
+Loaded postings blocks: 534835 of 708471
+Number of eval: 2193603
+dpm and spm: 4090697 0 34229400
+Query:rice,1
+Start query now. 
+30877115 : 9.45094
+19273657 : 9.45036
+31220235 : 9.44986
+605763 : 9.44985
+20337322 : 9.44972
+6822256 : 9.44891
+1738072 : 9.44826
+6682756 : 9.44788
+20064923 : 9.44626
+19977398 : 9.44555
+Time cost: 28 ms. 
+Loaded postings blocks: 7059 of 7059
+Number of eval: 451732
+dpm and spm: 451732 0 451732
+Query:africa,1:south,1
+Start query now. 
+30976568 : 9.56217
+30500054 : 9.56188
+30411300 : 9.5615
+2025504 : 9.56139
+23277896 : 9.5607
+24317841 : 9.56013
+30413544 : 9.55981
+30889028 : 9.55815
+19064934 : 9.55805
+19273723 : 9.55805
+Time cost: 201 ms. 
+Loaded postings blocks: 108615 of 112119
+Number of eval: 3510697
+dpm and spm: 4435540 0 6951276
+Query:sat,1
+Start query now. 
+12407269 : 8.33449
+12407272 : 8.33169
+9573615 : 8.32736
+3922232 : 8.32439
+27388944 : 8.32162
+9356788 : 8.32047
+27388943 : 8.31988
+31162936 : 8.31291
+30757160 : 8.31291
+1859385 : 8.31242
+Time cost: 44 ms. 
+Loaded postings blocks: 11599 of 11599
+Number of eval: 742317
+dpm and spm: 742317 0 742317
+Query:satellite,1
+Start query now. 
+25817056 : 8.83987
+32613028 : 8.83924
+21007561 : 8.83402
+178190 : 8.82331
+19229644 : 8.82282
+1066748 : 8.82171
+384266 : 8.82146
+20262552 : 8.8213
+356198 : 8.82099
+178196 : 8.82044
+Time cost: 34 ms. 
+Loaded postings blocks: 9294 of 9294
+Number of eval: 594776
+dpm and spm: 594776 0 594776
+Query:puerto,1:rico,1:rincon,1
+Start query now. 
+16120556 : 34.816
+16090473 : 34.5523
+14319351 : 34.5352
+14319350 : 34.5202
+3801461 : 34.2966
+14110046 : 34.2888
+14319356 : 34.2212
+14319363 : 34.1857
+16120562 : 34.0831
+6754657 : 34.0663
+Time cost: 5 ms. 
+Loaded postings blocks: 7934 of 16899
+Number of eval: 24437
+dpm and spm: 42004 0 507728
+Query:carlton,1:lake,1:las,1:ritz,1:vegas,1
+No posting available: vegas
+Query:creek,1:farm,1:fickle,1
+Start query now. 
+13623718 : 29.3596
+4492576 : 27.1465
+6303383 : 25.997
+22376448 : 25.9022
+30881315 : 25.695
+16537992 : 25.4991
+900982 : 24.9539
+1206831 : 24.642
+26605486 : 24.6355
+278553 : 24.6313
+Time cost: 8 ms. 
+Loaded postings blocks: 12031 of 23669
+Number of eval: 24917
+dpm and spm: 53474 0 769933
+Query:cj,1:madam,1:walker,1
+Start query now. 
+18367854 : 37.6039
+644829 : 37.1452
+20534032 : 37.128
+5162352 : 37.0694
+1214684 : 36.9753
+550670 : 36.9463
+1895162 : 36.9447
+7830281 : 36.8491
+1195484 : 36.6436
+19598653 : 36.6263
+Time cost: 5 ms. 
+Loaded postings blocks: 6573 of 7451
+Number of eval: 20776
+dpm and spm: 54905 0 420599
+Query:child,1:indiana,1:support,1
+Start query now. 
+4094821 : 17.0031
+4094822 : 16.9169
+10772608 : 16.8787
+21349338 : 16.8463
+23031620 : 16.7947
+4093068 : 16.738
+21349336 : 16.7286
+23031622 : 16.7149
+31906436 : 16.6743
+7657914 : 16.6633
+Time cost: 115 ms. 
+Loaded postings blocks: 122363 of 161863
+Number of eval: 477470
+dpm and spm: 1060373 0 7831159
+Query:county,1:medical,1:services,1:sonoma,1
+No posting available: services
+Query:animal,1:cuts,1:reviews,1:universal,1
+No posting available: cuts
+Query:cass,1:county,1:missouri,1
+Start query now. 
+2141 : 27.5775
+20145090 : 27.2468
+20001652 : 27.0817
+667772 : 27.0605
+2114058 : 27.0305
+457414 : 26.9255
+33982 : 26.7233
+783464 : 26.6488
+1638954 : 26.6396
+440988 : 26.6256
+Time cost: 22 ms. 
+Loaded postings blocks: 29222 of 48928
+Number of eval: 75986
+dpm and spm: 161968 0 1870181
+Query:brewster,1:owen,1:ralph,1
+Start query now. 
+6690062 : 33.8301
+31041183 : 33.7652
+170320 : 33.1717
+837979 : 32.9356
+30847010 : 32.0838
+1914857 : 31.9612
+1762351 : 31.7325
+196169 : 31.4218
+395819 : 30.895
+6772579 : 30.3861
+Time cost: 7 ms. 
+Loaded postings blocks: 7545 of 8233
+Number of eval: 34769
+dpm and spm: 88618 0 482751
+Query:clinic,1:fl,1:jacksonville,1:mayo,1
+Start query now. 
+10798210 : 40.453
+10798188 : 40.4517
+18131077 : 40.1157
+6028509 : 40.0648
+5014119 : 39.7243
+6622825 : 39.357
+15465271 : 38.6526
+18131071 : 38.553
+22170810 : 38.2755
+25646052 : 38.1344
+Time cost: 17 ms. 
+Loaded postings blocks: 18461 of 23152
+Number of eval: 58270
+dpm and spm: 173249 0 1181374
+Query:brazil,1:map,1:of,1
+Start query now. 
+12626465 : 10.0382
+1506523 : 10.0202
+1505960 : 9.93018
+20736793 : 9.92676
+33183599 : 9.9168
+13165693 : 9.90812
+21723354 : 9.90366
+28465179 : 9.89126
+27471087 : 9.88975
+6900422 : 9.88918
+Time cost: 321 ms. 
+Loaded postings blocks: 333884 of 629958
+Number of eval: 1439614
+dpm and spm: 2282639 0 21368525
+Query:dogs,1:in,1:lymphoma,1
+Start query now. 
+32636924 : 23.342
+18542051 : 23.3306
+2043842 : 23.3271
+26191955 : 23.3181
+549064 : 23.2867
+20096127 : 23.2833
+461854 : 23.2566
+25271177 : 23.2499
+20620091 : 23.2411
+33554010 : 23.2399
+Time cost: 25 ms. 
+Loaded postings blocks: 24889 of 473428
+Number of eval: 44476
+dpm and spm: 84622 0 1592835
+Query:gas,1:heater,1:kenmore,1:water,1
+Start query now. 
+30250891 : 39.9425
+16790705 : 39.738
+16790605 : 39.2298
+16790588 : 38.9337
+16790816 : 37.9507
+16790621 : 37.9391
+23376746 : 37.5461
+16790752 : 37.3906
+16790653 : 37.1294
+16790654 : 37.095
+Time cost: 14 ms. 
+Loaded postings blocks: 18197 of 67178
+Number of eval: 34311
+dpm and spm: 73983 0 1164547
+Query:2140,1:hp,1:mini,1
+Start query now. 
+25566317 : 35.1856
+15752773 : 35.024
+19917063 : 34.9615
+113742 : 34.9447
+1546812 : 34.8894
+23426376 : 34.8371
+20276707 : 34.8273
+20591140 : 34.8231
+13433615 : 34.6665
+21730997 : 34.6176
+Time cost: 5 ms. 
+Loaded postings blocks: 6324 of 16668
+Number of eval: 9924
+dpm and spm: 22991 0 404674
+Query:adobe,1:houses,1:indian,1
+No posting available: houses
+Query:laboratory,1:northwest,1:pacific,1
+Start query now. 
+16082223 : 23.4951
+22875631 : 23.3731
+9855468 : 23.1422
+16379856 : 23.0882
+6802638 : 23.0568
+133558 : 23.0276
+6801839 : 22.9569
+16082230 : 22.9037
+904754 : 22.8672
+3633205 : 22.8224
+Time cost: 50 ms. 
+Loaded postings blocks: 38741 of 44326
+Number of eval: 282893
+dpm and spm: 676073 0 2479334
+Query:board,1:california,1:franchise,1:tax,1
+Start query now. 
+29909886 : 23.4117
+29909887 : 23.4083
+21887351 : 23.3424
+21887289 : 23.3068
+18816166 : 22.8752
+27947911 : 22.8669
+1721776 : 22.8358
+6071729 : 22.6833
+10304620 : 22.6714
+32459710 : 22.6473
+Time cost: 108 ms. 
+Loaded postings blocks: 135569 of 202643
+Number of eval: 321988
+dpm and spm: 782163 0 8676357
+Query:asbestos,1:dangers,1:of,1
+No posting available: dangers
+Query:day,1:in,1:pocket,1:poem,1:your,1
+Start query now. 
+10509757 : 21.8974
+10509767 : 21.558
+25409862 : 21.2246
+13759250 : 21.1498
+20959321 : 21.1161
+10040099 : 20.8757
+14723465 : 20.7915
+9338281 : 20.7054
+10509758 : 20.6998
+33834835 : 20.6628
+Time cost: 259 ms. 
+Loaded postings blocks: 280314 of 826897
+Number of eval: 460605
+dpm and spm: 1047095 0 17939907
+Query:interview,1:thank,1:you,1
+Start query now. 
+20883713 : 13.1211
+25618310 : 13.0722
+26378650 : 13.0524
+585887 : 12.9871
+22091324 : 12.985
+20835986 : 12.9787
+31968706 : 12.9712
+9015572 : 12.964
+2944755 : 12.9588
+5786002 : 12.9497
+Time cost: 238 ms. 
+Loaded postings blocks: 247598 of 341231
+Number of eval: 1106118
+dpm and spm: 2049452 0 15846216
+Query:computer,1:on,1:tv,1
+Start query now. 
+8238801 : 10.4108
+18112551 : 10.3824
+26540650 : 10.3772
+6851226 : 10.3749
+18794957 : 10.3744
+20278828 : 10.3596
+1534749 : 10.3586
+20466859 : 10.3521
+20601107 : 10.3357
+16288821 : 10.3245
+Time cost: 366 ms. 
+Loaded postings blocks: 393607 of 493067
+Number of eval: 2207957
+dpm and spm: 3752074 0 25190791
+Query:and,1:reach,1:sit,1:test,1
+Start query now. 
+1534749 : 18.4106
+6940988 : 18.3911
+1516179 : 18.177
+1534933 : 18.0054
+218545 : 17.9708
+6986083 : 17.7982
+2122815 : 17.7928
+16004595 : 17.7893
+20462463 : 17.7887
+21406369 : 17.7806
+Time cost: 315 ms. 
+Loaded postings blocks: 368993 of 580081
+Number of eval: 1157855
+dpm and spm: 2511676 0 23615456
+Query:cemetery,1:culpeper,1:national,1
+Start query now. 
+14957393 : 30.7532
+15691279 : 30.4201
+28283589 : 29.5821
+21994656 : 29.4959
+19066395 : 29.4675
+19066396 : 29.3649
+20581115 : 29.3372
+952442 : 29.2236
+19087496 : 29.1113
+30871750 : 29.0569
+Time cost: 6 ms. 
+Loaded postings blocks: 7937 of 93537
+Number of eval: 11797
+dpm and spm: 24538 0 507936
+Query:disease,1:von,1:willebrand,1
+Start query now. 
+14857111 : 35.769
+3633782 : 35.685
+6831464 : 35.2709
+30585084 : 35.2286
+31019899 : 35.1975
+1879387 : 35.1857
+17517764 : 35.1331
+3415791 : 35.1116
+6898972 : 35.0919
+217079 : 35.0917
+Time cost: 2 ms. 
+Loaded postings blocks: 3843 of 28438
+Number of eval: 12324
+dpm and spm: 18505 0 245943
+Query:bowflex,1:power,1:pro,1
+Start query now. 
+26736599 : 29.7617
+26736600 : 29.4706
+2815052 : 28.4609
+18723134 : 28.1893
+20416461 : 28.1369
+19618453 : 28.1285
+19618452 : 28.0475
+26736587 : 27.7085
+16361599 : 27.5555
+2877946 : 27.3268
+Time cost: 4 ms. 
+Loaded postings blocks: 3528 of 99643
+Number of eval: 44523
+dpm and spm: 71533 0 225750
+Query:and,1:butter,1:margarine,1
+Start query now. 
+31069835 : 27.4463
+2029916 : 27.4306
+6729696 : 27.4293
+15181268 : 27.3489
+854576 : 27.3308
+1198037 : 27.2815
+1217310 : 27.265
+18702765 : 27.2544
+11011698 : 27.1653
+13233950 : 27.09
+Time cost: 15 ms. 
+Loaded postings blocks: 14167 of 484397
+Number of eval: 46256
+dpm and spm: 73494 0 906633
+Query:capitol,1:map,1:us,1
+Start query now. 
+245250 : 13.3186
+18841479 : 13.2975
+19625584 : 13.1917
+29398012 : 13.189
+19625585 : 13.1809
+26326571 : 13.1712
+30808536 : 13.0959
+19762986 : 13.0878
+30481055 : 13.0751
+398726 : 13.073
+Time cost: 131 ms. 
+Loaded postings blocks: 145497 of 492913
+Number of eval: 388113
+dpm and spm: 668921 0 9311754
+Query:county,1:dutchess,1:tourism,1
+Start query now. 
+14646425 : 30.6468
+14646426 : 30.6231
+28597942 : 30.4155
+28597941 : 30.3987
+3399133 : 30.1231
+3399116 : 29.4719
+33200626 : 29.3141
+3399134 : 29.1719
+3399098 : 29.083
+3399097 : 28.726
+Time cost: 7 ms. 
+Loaded postings blocks: 10769 of 49902
+Number of eval: 16963
+dpm and spm: 34563 0 689172
+Query:atypical,1:cells,1:squamous,1
+No posting available: cells
+Query:food,1:iowa,1:program,1:stamp,1
+Start query now. 
+23780302 : 25.7192
+23780289 : 25.5959
+21697225 : 24.7291
+11240292 : 24.0979
+26005205 : 23.8889
+21170021 : 23.8133
+7717397 : 23.6138
+2866510 : 23.5225
+5865397 : 23.4864
+28317675 : 23.4862
+Time cost: 105 ms. 
+Loaded postings blocks: 119676 of 184106
+Number of eval: 226649
+dpm and spm: 642105 0 7659161
+Query:fact,1:on,1:uranus,1
+Start query now. 
+30625343 : 20.6534
+215081 : 20.5946
+1731044 : 20.5544
+30966547 : 20.5473
+30297386 : 20.5263
+30475491 : 20.4445
+279074 : 20.4362
+30946176 : 20.4289
+19052043 : 20.426
+9432656 : 20.4225
+Time cost: 24 ms. 
+Loaded postings blocks: 21324 of 455707
+Number of eval: 40106
+dpm and spm: 71271 0 1364678
+Query:employer,1:equal,1:opportunity,1
+Start query now. 
+33031482 : 20.6898
+24988433 : 20.4998
+33031474 : 20.4337
+33031785 : 20.4244
+21413010 : 20.4153
+29982671 : 20.3361
+33031780 : 20.3198
+28496192 : 20.2527
+9115538 : 20.2395
+4260417 : 20.2388
+Time cost: 78 ms. 
+Loaded postings blocks: 75567 of 84021
+Number of eval: 592558
+dpm and spm: 1064422 0 4836212
+Query:day,1:mothers,1:songs,1
+No posting available: mothers
+Query:all,1:are,1:created,1:equal,1:men,1
+Start query now. 
+33193674 : 31.2444
+28326924 : 30.004
+24288138 : 25.8753
+5446071 : 25.6303
+29031356 : 25.6276
+14613518 : 25.531
+17915649 : 24.7363
+17492766 : 24.73
+12177299 : 24.2497
+16304737 : 24.0295
+Time cost: 23 ms. 
+Loaded postings blocks: 27833 of 739712
+Number of eval: 117599
+dpm and spm: 221825 0 1781285
+Query:electronic,1:shoot,1:skeet,1
+Start query now. 
+242567 : 28.8482
+20253556 : 28.7993
+8986832 : 28.7775
+30389569 : 28.6091
+6904025 : 28.6012
+30627114 : 28.4412
+28333649 : 28.3859
+19805114 : 28.2729
+19046265 : 28.2603
+13855804 : 28.2425
+Time cost: 7 ms. 
+Loaded postings blocks: 12460 of 36841
+Number of eval: 19907
+dpm and spm: 42522 0 797387
+Query:nile,1:of,1:source,1:the,1
+Start query now. 
+897080 : 16.4718
+19943164 : 16.4713
+919492 : 16.4692
+30887180 : 16.4646
+19608294 : 16.4621
+1857350 : 16.4251
+30983689 : 16.4166
+13977131 : 16.4157
+897083 : 16.4049
+12562314 : 16.347
+Time cost: 157 ms. 
+Loaded postings blocks: 157404 of 1057216
+Number of eval: 284798
+dpm and spm: 520927 0 10073826
+Query:american,1:military,1:university,1
+No posting available: american
+Query:and,1:gem,1:rock,1:shows,1
+No posting available: shows
+Query:chemical,1:company,1:jax,1
+Start query now. 
+24393121 : 23.3501
+27393263 : 23.1634
+25840704 : 22.968
+5414196 : 22.8845
+365901 : 22.694
+365900 : 22.5204
+24393279 : 22.4115
+24392991 : 22.2813
+25321031 : 22.2651
+24797414 : 22.1494
+Time cost: 11 ms. 
+Loaded postings blocks: 13005 of 117154
+Number of eval: 14162
+dpm and spm: 33075 0 832289
+Query:mountain,1:news,1:rocky,1
+Start query now. 
+14339807 : 18.0793
+25918164 : 18.008
+23729096 : 18.0061
+19792436 : 17.9878
+19397467 : 17.977
+19239146 : 17.9644
+1979748 : 17.9607
+18890399 : 17.951
+1186189 : 17.95
+19894706 : 17.9486
+Time cost: 99 ms. 
+Loaded postings blocks: 106228 of 194584
+Number of eval: 484862
+dpm and spm: 912821 0 6798528
+Query:east,1:high,1:ridge,1:school,1
+Start query now. 
+843005 : 21.0366
+93973 : 21.0116
+18967728 : 20.9964
+706828 : 20.9281
+15499827 : 20.8449
+239113 : 20.7409
+12371385 : 20.7298
+25788106 : 20.727
+268823 : 20.7147
+19865436 : 20.7014
+Time cost: 183 ms. 
+Loaded postings blocks: 184340 of 241693
+Number of eval: 615832
+dpm and spm: 1388805 0 11797655
+Query:dmv,1:registration,1:va,1
+Start query now. 
+23009624 : 29.5763
+32333866 : 29.4872
+22280045 : 29.0763
+23009550 : 28.981
+32333911 : 28.9261
+23009534 : 28.773
+23009625 : 28.7327
+23009570 : 28.6516
+22280105 : 28.6166
+8920172 : 28.4836
+Time cost: 8 ms. 
+Loaded postings blocks: 11292 of 35759
+Number of eval: 24452
+dpm and spm: 46689 0 722672
+Query:illinois,1:state,1:tax,1
+Start query now. 
+19563386 : 13.67
+1753993 : 13.669
+31013879 : 13.6634
+30887434 : 13.6586
+20279888 : 13.6538
+20279857 : 13.6459
+19205322 : 13.6459
+1015156 : 13.637
+19830730 : 13.6323
+6647237 : 13.6137
+Time cost: 185 ms. 
+Loaded postings blocks: 191752 of 233140
+Number of eval: 958362
+dpm and spm: 1724440 0 12272039
+Query:arkadelphia,1:club,1:health,1
+Start query now. 
+8662410 : 25.27
+8662409 : 24.5055
+3741889 : 23.5996
+8662441 : 23.5886
+3741892 : 23.5585
+3741891 : 23.4638
+3741890 : 23.2159
+4370614 : 22.9828
+1880 : 22.6346
+16285295 : 22.5871
+Time cost: 2 ms. 
+Loaded postings blocks: 2799 of 119216
+Number of eval: 5541
+dpm and spm: 10742 0 179115
+Query:for,1:sale,1:trombone,1
+Start query now. 
+27076953 : 20.019
+31985497 : 19.8641
+8845944 : 19.5624
+18515605 : 19.3974
+20641361 : 19.3944
+27076932 : 18.8989
+14871577 : 18.8
+24644560 : 18.6625
+21981763 : 18.6007
+1813027 : 18.5941
+Time cost: 19 ms. 
+Loaded postings blocks: 29164 of 482444
+Number of eval: 48605
+dpm and spm: 94055 0 1866455
+Query:for,1:shade,1:vines,1
+No posting available: vines
+Query:library,1:regional,1:sherwood,1
+Start query now. 
+22152584 : 23.4099
+22152463 : 22.7819
+18522001 : 21.8321
+18570135 : 21.7611
+19417372 : 21.6372
+30313347 : 21.6011
+875821 : 21.5379
+10896552 : 21.5006
+710456 : 21.4813
+20214130 : 21.4781
+Time cost: 24 ms. 
+Loaded postings blocks: 33667 of 78989
+Number of eval: 61004
+dpm and spm: 152016 0 2154644
+Query:personal,1:property,1:tangible,1:tax,1
+Start query now. 
+4254998 : 23.3878
+2791374 : 23.192
+27035680 : 23.161
+9260744 : 23.1234
+2234986 : 22.9529
+28770129 : 22.92
+28770127 : 22.888
+10906756 : 22.7153
+3727750 : 22.7001
+33409681 : 22.641
+Time cost: 76 ms. 
+Loaded postings blocks: 91159 of 302949
+Number of eval: 144425
+dpm and spm: 357220 0 5834141
+Query:and,1:imclone,1:martha,1:stewart,1
+Start query now. 
+9772102 : 43.399
+19760428 : 43.1702
+29953481 : 42.9235
+1218581 : 42.917
+1619869 : 42.2307
+21103004 : 42.1231
+29953510 : 42.0507
+13595 : 41.8761
+13585 : 41.6847
+29401732 : 41.3011
+Time cost: 3 ms. 
+Loaded postings blocks: 3205 of 488424
+Number of eval: 6490
+dpm and spm: 12043 0 205042
+Query:at,1:national,1:park,1:uplift,1:yellowstone,1
+Start query now. 
+14850412 : 36.4851
+14850411 : 36.465
+9231366 : 36.4172
+14850409 : 36.1504
+14850416 : 36.1483
+24913112 : 35.1207
+30123577 : 35.1093
+31151225 : 34.9189
+14850401 : 34.854
+1136638 : 34.8465
+Time cost: 40 ms. 
+Loaded postings blocks: 51344 of 474419
+Number of eval: 58025
+dpm and spm: 132627 0 3285961
+Query:highway,1:patrol,1:tn,1
+Start query now. 
+30135086 : 27.9525
+28511257 : 27.1506
+14901366 : 27.1017
+30135154 : 26.9492
+30135175 : 26.8711
+14901322 : 26.71
+30135084 : 26.6014
+29762698 : 26.3441
+14901338 : 26.3233
+30135079 : 26.3057
+Time cost: 19 ms. 
+Loaded postings blocks: 16906 of 19046
+Number of eval: 84110
+dpm and spm: 219813 0 1081922
+Query:403b,1
+No posting available: 403b
+Query:angular,1:cheilitis,1
+No posting available: cheilitis
+Query:pocono,1
+Start query now. 
+24633074 : 16.9926
+27565221 : 16.9721
+10175350 : 16.9356
+16274222 : 16.9274
+1844937 : 16.9162
+29175862 : 16.9
+16274217 : 16.8947
+26156391 : 16.8938
+29082340 : 16.8877
+980143 : 16.8857
+Time cost: 1 ms. 
+Loaded postings blocks: 220 of 220
+Number of eval: 14043
+dpm and spm: 14043 0 14043
+Query:figs,1
+No posting available: figs
+Query:last,1:painting,1:supper,1
+Start query now. 
+192791 : 23.0592
+6979100 : 23.0258
+325412 : 22.7034
+27126339 : 22.6239
+10556795 : 22.5547
+218545 : 22.5492
+20310803 : 22.4962
+18610397 : 22.4222
+31017647 : 22.4078
+19503020 : 22.4006
+Time cost: 33 ms. 
+Loaded postings blocks: 46149 of 200358
+Number of eval: 89573
+dpm and spm: 183554 0 2953482
+Query:of,1:phoenix,1:university,1
+Start query now. 
+33089306 : 12.907
+32087025 : 12.8641
+32087021 : 12.8637
+32087018 : 12.863
+32087029 : 12.8611
+1796610 : 12.8597
+32087020 : 12.8597
+32087017 : 12.8594
+21547898 : 12.8593
+32087023 : 12.8587
+Time cost: 225 ms. 
+Loaded postings blocks: 228354 of 580212
+Number of eval: 732991
+dpm and spm: 1231414 0 14614636
+Query:band,1:beatles,1:rock,1:the,1
+No posting available: beatles
+Query:design,1:septic,1:system,1
+Start query now. 
+26077676 : 21.2539
+26077687 : 21.2518
+26077688 : 21.2387
+26077727 : 21.2159
+26077729 : 21.1956
+26077698 : 21.181
+26077690 : 21.1753
+26077725 : 21.1658
+26077684 : 21.1648
+26077689 : 21.1397
+Time cost: 19 ms. 
+Loaded postings blocks: 27880 of 216328
+Number of eval: 52860
+dpm and spm: 96365 0 1784282
+Query:porterville,1
+Start query now. 
+1800128 : 18.8665
+595840 : 18.8523
+1415656 : 18.8157
+981570 : 18.7677
+958697 : 18.6387
+29313808 : 18.6122
+30294433 : 18.59
+1952323 : 18.5124
+22893910 : 18.4769
+24521384 : 18.4216
+Time cost: 0 ms. 
+Loaded postings blocks: 85 of 85
+Number of eval: 5377
+dpm and spm: 5377 0 5377
+Query:grilling,1
+No posting available: grilling
+Query:for,1:furniture,1:small,1:spaces,1
+No posting available: spaces
+Query:dnr,1
+Start query now. 
+17710673 : 15.099
+31696105 : 15.0795
+30543676 : 15.0217
+4092810 : 15.0171
+636613 : 15.0051
+20244473 : 15.0041
+752788 : 15.0021
+1342300 : 15.0019
+30333425 : 14.9991
+421913 : 14.9987
+Time cost: 2 ms. 
+Loaded postings blocks: 540 of 540
+Number of eval: 34541
+dpm and spm: 34541 0 34541
+Query:arkansas,1
+Start query now. 
+19537016 : 9.40951
+22413660 : 9.40186
+31726280 : 9.40052
+17972774 : 9.39716
+19723877 : 9.39576
+12029451 : 9.39543
+16718053 : 9.39474
+319749 : 9.39471
+1460723 : 9.39303
+20024409 : 9.39202
+Time cost: 26 ms. 
+Loaded postings blocks: 7181 of 7181
+Number of eval: 459564
+dpm and spm: 459564 0 459564
+Query:hobby,1:stores,1
+Start query now. 
+25929988 : 17.2177
+22886010 : 17.1639
+30023603 : 17.1572
+22891403 : 17.1466
+14467948 : 17.1329
+22887790 : 17.1132
+17073270 : 17.1111
+30023604 : 17.0706
+9050866 : 17.0187
+30023608 : 17.009
+Time cost: 23 ms. 
+Loaded postings blocks: 16448 of 19608
+Number of eval: 184677
+dpm and spm: 321772 0 1052582
+Query:blue,1:hummingbird,1:throated,1
+No posting available: throated
+Query:computer,1:programming,1
+No posting available: programming
+Query:barbados,1
+Start query now. 
+33444800 : 9.94535
+1557327 : 9.94158
+20474034 : 9.94042
+1101548 : 9.93925
+1299226 : 9.93521
+1707243 : 9.93397
+15261276 : 9.93351
+18801636 : 9.93328
+6360654 : 9.9265
+20384167 : 9.92548
+Time cost: 19 ms. 
+Loaded postings blocks: 5595 of 5595
+Number of eval: 358046
+dpm and spm: 358046 0 358046
+Query:lipoma,1
+Start query now. 
+1593249 : 21.1887
+19459278 : 21.184
+1339363 : 21.1593
+18245369 : 21.0767
+18565396 : 21.0714
+1205540 : 21.0664
+1700021 : 21.016
+30175848 : 21.011
+2036089 : 20.9946
+14307097 : 20.9104
+Time cost: 0 ms. 
+Loaded postings blocks: 32 of 32
+Number of eval: 2020
+dpm and spm: 2020 0 2020
+Query:battles,1:civil,1:in,1:the,1:war,1
+No posting available: battles
+Query:scooters,1
+No posting available: scooters
+Query:howard,1:ron,1
+Start query now. 
+30487134 : 18.6154
+6756486 : 18.5115
+19503453 : 18.4599
+20488059 : 18.3715
+19820725 : 18.3363
+20708569 : 18.294
+19650727 : 18.2784
+6968497 : 18.2359
+19264961 : 18.2232
+20559307 : 18.2078
+Time cost: 28 ms. 
+Loaded postings blocks: 13514 of 13999
+Number of eval: 256757
+dpm and spm: 445822 0 864885
+Query:a,1:becoming,1:paralegal,1
+Start query now. 
+23583119 : 21.0842
+9851533 : 20.4811
+30038172 : 20.3547
+21589564 : 20.2665
+26885079 : 20.1225
+14826911 : 20.1163
+12573844 : 19.9755
+22820045 : 19.8727
+2660458 : 19.6888
+23367522 : 19.657
+Time cost: 17 ms. 
+Loaded postings blocks: 20953 of 488963
+Number of eval: 38061
+dpm and spm: 70310 0 1340936
+Query:fractures,1:hip,1
+No posting available: fractures
+Query:art,1:rock,1
+Start query now. 
+25248679 : 11.1027
+30151763 : 11.0857
+21033138 : 11.0855
+20560258 : 11.0818
+20378625 : 11.0763
+20515505 : 11.0673
+32699953 : 11.0623
+159770 : 11.0373
+18685067 : 11.0295
+11636322 : 11.0248
+Time cost: 113 ms. 
+Loaded postings blocks: 78526 of 82553
+Number of eval: 1315022
+dpm and spm: 2109001 0 5025615
+Query:a,1:heartattack,1:of,1:signs,1
+No posting available: signs
+Query:strip,1:weather,1
+Start query now. 
+13710733 : 15.1226
+4714282 : 14.8549
+6961653 : 14.6935
+23150978 : 14.6275
+22080104 : 14.6127
+18314922 : 14.6008
+29957872 : 14.59
+22080102 : 14.5308
+17321123 : 14.505
+18258751 : 14.5009
+Time cost: 53 ms. 
+Loaded postings blocks: 31617 of 35709
+Number of eval: 389421
+dpm and spm: 685884 0 2023431
+Query:best,1:care,1:insurance,1:long,1:term,1
+Start query now. 
+21008131 : 23.5768
+14115009 : 23.4218
+15075895 : 23.3966
+27632016 : 23.3197
+27502884 : 23.2696
+15855361 : 23.2511
+4533527 : 23.2355
+23959860 : 23.194
+20895090 : 23.1662
+10691165 : 23.1607
+Time cost: 297 ms. 
+Loaded postings blocks: 280885 of 311759
+Number of eval: 1163034
+dpm and spm: 2919414 0 17976477
+Query:pork,1:tenderloin,1
+Start query now. 
+15803211 : 28.7262
+5633255 : 28.5599
+15802647 : 28.54
+15803213 : 28.4021
+15803217 : 28.3728
+15801768 : 28.3644
+15803212 : 28.3273
+15803216 : 28.3125
+15131763 : 28.24
+15803215 : 28.239
+Time cost: 2 ms. 
+Loaded postings blocks: 2217 of 2428
+Number of eval: 21940
+dpm and spm: 32229 0 141820
+Query:black,1:history,1
+Start query now. 
+6890538 : 7.11183
+1534749 : 7.09351
+31045090 : 7.08959
+6746255 : 7.08886
+26017480 : 7.08654
+19061695 : 7.08473
+18720338 : 7.08349
+18743368 : 7.08188
+19017251 : 7.08058
+20164494 : 7.08036
+Time cost: 257 ms. 
+Loaded postings blocks: 200855 of 207004
+Number of eval: 3037213
+dpm and spm: 4468638 0 12854638
+Query:hotels,1:newyork,1
+No posting available: hotels
+Query:coins,1:old,1
+No posting available: coins
+Query:quit,1:smoking,1
+Start query now. 
+15364858 : 20.9546
+14724981 : 20.9191
+32309194 : 20.9013
+32309268 : 20.8925
+6130986 : 20.8909
+4967881 : 20.8889
+28408761 : 20.8828
+28408607 : 20.8738
+26007730 : 20.8735
+23932311 : 20.8628
+Time cost: 17 ms. 
+Loaded postings blocks: 8506 of 8957
+Number of eval: 184138
+dpm and spm: 284383 0 544315
+Query:city,1:kansas,1:mo,1
+Start query now. 
+27627514 : 20.4852
+8461775 : 20.4802
+33555017 : 20.4515
+8461679 : 20.433
+33555033 : 20.4235
+525664 : 20.4119
+33555038 : 20.4113
+33555048 : 20.4108
+3692728 : 20.4108
+26968586 : 20.3927
+Time cost: 90 ms. 
+Loaded postings blocks: 91803 of 118453
+Number of eval: 467460
+dpm and spm: 839661 0 5875358
+Query:civil,1:movement,1:right,1
+Start query now. 
+215806 : 17.8763
+1042497 : 17.8679
+19034686 : 17.8482
+947628 : 17.832
+31197862 : 17.8236
+1125987 : 17.8186
+20156893 : 17.8112
+20011935 : 17.811
+19061518 : 17.8108
+961244 : 17.8059
+Time cost: 137 ms. 
+Loaded postings blocks: 107921 of 115838
+Number of eval: 1013434
+dpm and spm: 2048252 0 6906791
+Query:credit,1:report,1
+Start query now. 
+24548053 : 8.89051
+12685758 : 8.88566
+22487484 : 8.88555
+23084384 : 8.88397
+23084349 : 8.87962
+32595305 : 8.87905
+23084352 : 8.87839
+4933996 : 8.87832
+21843785 : 8.87751
+23084341 : 8.87749
+Time cost: 179 ms. 
+Loaded postings blocks: 123101 of 132079
+Number of eval: 2192821
+dpm and spm: 3293375 0 7878415
+Query:unc,1
+Start query now. 
+13896155 : 13.9871
+17326242 : 13.9824
+26305350 : 13.9545
+30874318 : 13.9423
+13896621 : 13.9401
+30319357 : 13.9318
+147639 : 13.9314
+30716035 : 13.9297
+30716029 : 13.9296
+30686725 : 13.9284
+Time cost: 3 ms. 
+Loaded postings blocks: 906 of 906
+Number of eval: 57927
+dpm and spm: 57927 0 57927
+Query:vanuatu,1
+Start query now. 
+30898718 : 10.5485
+1741889 : 10.5465
+30555563 : 10.5458
+31263178 : 10.5449
+27967201 : 10.5427
+6983930 : 10.5368
+30602001 : 10.5349
+30322112 : 10.5333
+30875445 : 10.5323
+6650357 : 10.532
+Time cost: 15 ms. 
+Loaded postings blocks: 4226 of 4226
+Number of eval: 270445
+dpm and spm: 270445 0 270445
+Query:internet,1:phone,1:service,1
+Start query now. 
+13054472 : 10.1373
+9463870 : 10.1341
+20814452 : 10.1268
+30090441 : 10.1157
+10185085 : 10.1144
+30090532 : 10.111
+15089319 : 10.1101
+29819159 : 10.1028
+9064238 : 10.0967
+18240169 : 10.0953
+Time cost: 337 ms. 
+Loaded postings blocks: 287082 of 314865
+Number of eval: 2846277
+dpm and spm: 5020733 0 18373170
+Query:gs,1:pay,1:rate,1
+Start query now. 
+12132636 : 22.9194
+12132593 : 22.8736
+12132630 : 22.7485
+12132590 : 22.6303
+12132610 : 22.6226
+12132684 : 22.6202
+12132612 : 22.6187
+12132689 : 22.611
+12132617 : 22.5379
+12132613 : 22.4511
+Time cost: 39 ms. 
+Loaded postings blocks: 50408 of 88973
+Number of eval: 98337
+dpm and spm: 238946 0 3226061
+Query:brooks,1:brothers,1:clearance,1
+No posting available: brooks
+Query:churchill,1:downs,1
+Start query now. 
+32420651 : 24.3253
+25637959 : 24.2983
+15295927 : 24.0248
+20290614 : 23.9485
+25637957 : 23.9464
+7581683 : 23.9379
+25926626 : 23.92
+25637938 : 23.8639
+25637960 : 23.7313
+20981039 : 23.6523
+Time cost: 7 ms. 
+Loaded postings blocks: 3759 of 3905
+Number of eval: 57854
+dpm and spm: 108068 0 240462
+Query:condos,1:florida,1:in,1
+No posting available: condos
+Query:bags,1:clean,1:dog,1:up,1
+Start query now. 
+3570546 : 24.6103
+6263155 : 24.5838
+14302085 : 24.291
+17857228 : 24.2529
+10362512 : 24.2421
+10362511 : 24.0667
+11261855 : 23.9284
+10656392 : 23.9275
+24158592 : 23.7438
+1534933 : 23.4224
+Time cost: 120 ms. 
+Loaded postings blocks: 137172 of 224667
+Number of eval: 312249
+dpm and spm: 762477 0 8778921
+Query:breeds,1:designer,1:dog,1
+No posting available: breeds
+Query:pressure,1:washers,1
+No posting available: washers
+Query:sore,1:throat,1
+Start query now. 
+11017462 : 23.93
+23910670 : 23.9143
+29941199 : 23.9065
+3969717 : 23.8614
+6130129 : 23.858
+21412506 : 23.8437
+5233640 : 23.8331
+7414156 : 23.8098
+21616303 : 23.7961
+4582649 : 23.77
+Time cost: 8 ms. 
+Loaded postings blocks: 4314 of 4430
+Number of eval: 90327
+dpm and spm: 143879 0 276031
+Query:flower,1:idaho,1:state,1
+Start query now. 
+27754613 : 19.741
+27754540 : 19.1595
+2537096 : 19.1574
+32058620 : 19.1248
+26474849 : 18.6944
+2537079 : 18.6881
+21047743 : 18.6775
+22599596 : 18.6533
+14135626 : 18.6019
+21047752 : 18.5247
+Time cost: 77 ms. 
+Loaded postings blocks: 88232 of 129440
+Number of eval: 242091
+dpm and spm: 512452 0 5646804
+Query:fairgrounds,1:indiana,1:state,1
+No posting available: fairgrounds
+Query:fybromyalgia,1
+Start query now. 
+9310813 : 24.1825
+18309106 : 23.7312
+9310812 : 22.3405
+9310811 : 21.6056
+9310810 : 20.9682
+9920308 : 20.9388
+9310814 : 19.5878
+31797658 : 19.2529
+9310815 : 19.2362
+9712181 : 18.9898
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 3
+Number of eval: 180
+dpm and spm: 180 0 180
+Query:airport,1:california,1:ontario,1
+Start query now. 
+700601 : 22.245
+1268041 : 22.2207
+6671730 : 22.202
+19320307 : 22.1986
+2145971 : 22.1459
+130395 : 22.0924
+1015015 : 22.0897
+1963260 : 22.0609
+244326 : 22.0487
+9880909 : 22.0196
+Time cost: 56 ms. 
+Loaded postings blocks: 50690 of 58656
+Number of eval: 286395
+dpm and spm: 680726 0 3244076

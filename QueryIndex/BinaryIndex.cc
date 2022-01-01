@@ -89,11 +89,12 @@ static bool sortIntervalsByScore(
   return (a.second > b.second);
 }
 
-BinaryIndex::BinaryIndex(const char* index_file_path,
+BinaryIndex::BinaryIndex(const char* norm_doc_len_path,
+                         const char* index_file_path,
                          const char* vocabulary_file_path,
                          size_t dataset_size,
                          size_t constant_block_size,
-                         const char* block_variable_size_file_path)
+			 bool is_bm25)
     : NUM_TOTAL_DOC(dataset_size) {
   vocabulary_size = 0;
 
@@ -114,15 +115,15 @@ BinaryIndex::BinaryIndex(const char* index_file_path,
     return;
   }
 
-  std::ifstream block_size_file(block_variable_size_file_path, std::ios::in);
-  if (constant_block_size == 0 && !block_size_file.is_open()) {
-    index_file.close();
-    vocabulary_file.close();
-    std::cerr << "Failed to open block size file: "
-              << block_variable_size_file_path
-              << std::endl;
-    return;
-  }
+  // std::ifstream block_size_file(block_variable_size_file_path, std::ios::in);
+  // if (constant_block_size == 0 && !block_size_file.is_open()) {
+  //   index_file.close();
+  //   vocabulary_file.close();
+  //   std::cerr << "Failed to open block size file: "
+  //             << block_variable_size_file_path
+  //             << std::endl;
+  //   return;
+  // }
 
   // Start to build this BinaryIndex from all opened files.
 
@@ -135,28 +136,28 @@ BinaryIndex::BinaryIndex(const char* index_file_path,
     PostingList* curr = nullptr;
     
     if (constant_block_size == 0) {
-      if (!getline(block_size_file, line)) {
-        std::cerr << "Failed to read a block size info. " << std::endl;
-        succ = false;
-        break;
-      }
-      std::istringstream iss2(line);
-      std::vector<std::string> block_size_info( 
-          std::istream_iterator<std::string>{iss2},
-          std::istream_iterator<std::string>());
-      if (!block_size_info[0].compare(vocabulary_info[0])) {
-        curr = new PostingList(index_file_path,
-                               vocabulary_info, block_size_info,
-                               constant_block_size, NUM_TOTAL_DOC);
-      } else {
-        std::cerr << "Block size info has a mismatch: "
-                  << block_size_info[0] << " vs. " << vocabulary_info[0]
-                  << std::endl;
-      }
+      // if (!getline(block_size_file, line)) {
+      //   std::cerr << "Failed to read a block size info. " << std::endl;
+      //   succ = false;
+      //   break;
+      // }
+      // std::istringstream iss2(line);
+      // std::vector<std::string> block_size_info( 
+      //     std::istream_iterator<std::string>{iss2},
+      //     std::istream_iterator<std::string>());
+      // if (!block_size_info[0].compare(vocabulary_info[0])) {
+      //   curr = new PostingList(index_file_path,
+      //                          vocabulary_info, block_size_info,
+      //                          constant_block_size, NUM_TOTAL_DOC);
+      // } else {
+      //   std::cerr << "Block size info has a mismatch: "
+      //             << block_size_info[0] << " vs. " << vocabulary_info[0]
+      //             << std::endl;
+      // }
     } else {
-      curr = new PostingList(index_file_path,
+      curr = new PostingList(norm_doc_len_path, index_file_path,
                              vocabulary_info, std::vector<std::string>(),
-                             constant_block_size, NUM_TOTAL_DOC);
+                             constant_block_size, NUM_TOTAL_DOC, is_bm25);
     }
 
     if (curr == nullptr) {
@@ -174,7 +175,7 @@ BinaryIndex::BinaryIndex(const char* index_file_path,
 
   index_file.close();
   vocabulary_file.close();
-  block_size_file.close();
+  // block_size_file.close();
 }
 
 BinaryIndex::~BinaryIndex() {
@@ -936,52 +937,53 @@ std::vector<std::pair<uint32_t, float>> BinaryIndex::RunTPQuery(
     count_spm_2 += query_postings[i]->CountSPM();
   }
 
-  std::cout << "Time cost total: "
-            << duration_cast<milliseconds>(t1 - t0).count()
-                + duration_cast<milliseconds>(t3 - t2).count()
-                + duration_cast<milliseconds>(t5 - t4).count()
-                + duration_cast<milliseconds>(t7 - t6).count()
-                + count_ms_below / 1000
-            << " ms. " 
-            << "In detail: "
-            << duration_cast<milliseconds>(t1 - t0).count()
-            << " " << duration_cast<milliseconds>(t3 - t2).count()
-            << " " << duration_cast<milliseconds>(t5 - t4).count()
-            << " " << duration_cast<milliseconds>(t7 - t6).count()
-            << " " << count_ms_below / 1000
-            << std::endl;
+  // std::cout << "Time cost: "
+  //           << duration_cast<milliseconds>(t1 - t0).count()
+  //               + duration_cast<milliseconds>(t3 - t2).count()
+  //               + duration_cast<milliseconds>(t5 - t4).count()
+  //               + duration_cast<milliseconds>(t7 - t6).count()
+  //               + count_ms_below / 1000
+  //           << " ms. " 
+  //           << "In detail: "
+  //           << duration_cast<milliseconds>(t1 - t0).count()
+  //           << " " << duration_cast<milliseconds>(t3 - t2).count()
+  //           << " " << duration_cast<milliseconds>(t5 - t4).count()
+  //           << " " << duration_cast<milliseconds>(t7 - t6).count()
+  //           << " " << count_ms_below / 1000
+  //           << std::endl;
 
-  std::cout << "Loaded postings blocks: "
-            << count_loaded_blocks + count_loaded_blocks_2
-            << " of " << count_total_blocks
-            << ". In detail: " << count_loaded_blocks
-            << " " << count_loaded_blocks_2 << std::endl;
+  // std::cout << "Loaded postings blocks: "
+  //           << count_loaded_blocks + count_loaded_blocks_2
+  //           << " of " << count_total_blocks
+  //           << ". In detail: " << count_loaded_blocks
+  //           << " " << count_loaded_blocks_2 << std::endl;
 
-  std::cout << "Number of eval: "
-            << count_eval_documents + count_eval_documents_2
-            << ". In detail: " << count_eval_documents
-            << " " << count_eval_documents_2 << std::endl;
+  // std::cout << "Number of eval: "
+  //           << count_eval_documents + count_eval_documents_2
+  //           << ". In detail: " << count_eval_documents
+  //           << " " << count_eval_documents_2 << std::endl;
 
-  std::cout << "dpm and spm: " << count_dpm + count_dpm_2
-            << " " << count_spm + count_spm_2
-            << ". In detail: " << count_dpm << " + " << count_dpm_2
-            << " " << count_spm << " + " << count_spm_2 << std::endl;
+  // std::cout << "dpm and spm: " << count_dpm + count_dpm_2
+  //           << " " << count_spm + count_spm_2
+  //           << ". In detail: " << count_dpm << " + " << count_dpm_2
+  //           << " " << count_spm << " + " << count_spm_2 << std::endl;
   
   return top_k;
 }
 
 void BinaryIndex::Query(
+    const std::string query_id,
     const std::vector<std::string>& query_keywords,
     const std::vector<uint64_t>& query_keywords_frequency,
     const char* retrieval_method,
     int top_k) {
-  std::cout << "Query";
+  // std::cout << "Query";
   int fre_ind = 0;
-  for (std::string each_keyword : query_keywords) {
-    std::cout << ":" << each_keyword
-              << "," << query_keywords_frequency[fre_ind++];
-  }
-  std::cout << std::endl;
+  // for (std::string each_keyword : query_keywords) {
+  //   std::cout << ":" << each_keyword
+  //             << "," << query_keywords_frequency[fre_ind++];
+  // }
+  // std::cout << std::endl;
 
   kTopK = top_k;
 
@@ -1003,7 +1005,7 @@ void BinaryIndex::Query(
 
   high_resolution_clock::time_point t0 = high_resolution_clock::now();
 
-  std::cout << "Start query now. " << std::endl;
+  // std::cout << "Start query now. " << std::endl;
 
   if (!std::strcmp(retrieval_method, "wave")) {
     top_k_accumulator = RunWaveQuery(query_postings);
@@ -1018,7 +1020,7 @@ void BinaryIndex::Query(
   high_resolution_clock::time_point t1 = high_resolution_clock::now();
 
   for (auto iter : top_k_accumulator) {
-    std::cout << iter.first << " : " << iter.second << std::endl;
+    std::cout <<std::setw(9) << std::left << query_id << "\t" << "Q0" << "\t" << iter.first << "\t" << "0" << "\t" << iter.second << "\t" << "test" << std::endl;
   }
 
   size_t count_total_blocks = 0, count_loaded_blocks = 0;
@@ -1034,12 +1036,13 @@ void BinaryIndex::Query(
   }
 
   if (std::strcmp(retrieval_method, "tp")) {
-    std::cout << "Time cost: "
-              << duration_cast<milliseconds>(t1 - t0).count()
-              << " ms. " << std::endl;
-    std::cout << "Loaded postings blocks: " << count_loaded_blocks
-              << " of " << count_total_blocks << std::endl;
-    std::cout << "Number of eval: " << count_eval_documents << std::endl;
-    std::cout << "dpm and spm: " << count_dpm << " " << count_spm << " " << count_decoded_postings << std::endl;
+    // std::cout << "Time cost: "
+    //           << duration_cast<milliseconds>(t1 - t0).count()
+    //           << " ms. " << std::endl;
+    // std::cout << "Loaded postings blocks: " << count_loaded_blocks
+    //           << " of " << count_total_blocks << std::endl;
+    // std::cout << "Number of eval: " << count_eval_documents << std::endl;
+    // std::cout << "dpm and spm: " << count_dpm << " " << count_spm << " " << count_decoded_postings << std::endl;
+    
   }
 }

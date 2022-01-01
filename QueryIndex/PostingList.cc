@@ -40,17 +40,16 @@ Authors: Jinjin Shao
 
 using namespace FastPForLib;
 
-static std::vector<float> InitializeClueWebNormDocLen() {
-  std::vector<float> res(33836981, 0);
-  std::string tmp_file_path = 
-      "/home/shao158/Documents/datasets/clueweb_33M_doc_normalized_len.txt";
-  std::ifstream doc_len_file(tmp_file_path.c_str(), std::ios::in);
+std::vector<float> PostingList::norm_doc_len = std::vector<float>(0);
+
+static std::vector<float> InitializeNormDocLen(const char* filename) {
+  std::vector<float> res;
+  std::ifstream doc_len_file(filename, std::ios::in);
   assert(doc_len_file.is_open());
 
   std::string line;
-  int i = 0;
-  while (getline(doc_len_file, line)) res[i++] = std::stof(line);
-  std::cerr << "Load doc len: " << i << std::endl;
+  while (getline(doc_len_file, line)) res.push_back(std::stof(line));
+  std::cerr << "Load doc len: " << res.size() << std::endl;
   doc_len_file.close();
 
   return res;
@@ -60,17 +59,17 @@ static bool sortByTF(float a, float b) {
   return (a > b);
 }
 
-const std::vector<float> PostingList::norm_doc_len
-  = InitializeClueWebNormDocLen();
-
-PostingList::PostingList(const char* index_file_path,
+PostingList::PostingList(const char* norm_doc_len_file, 
+                         const char* index_file_path,
                          const std::vector<std::string>& vocabulary_info,
                          const std::vector<std::string>& block_size_info,
                          size_t constant_block_size,
-                         size_t num_total_doc)
+                         size_t num_total_doc,
+			 bool is_bm25)
     : binary_index_path (index_file_path),
       BLOCK_SIZE (constant_block_size),
-      NUM_TOTAL_DOC (num_total_doc) {
+      NUM_TOTAL_DOC (num_total_doc),
+      isBM25 (is_bm25) {
   assert(vocabulary_info.size() % 2 == 1 && vocabulary_info.size() >= 5);
   term_str = vocabulary_info[0];
   document_frequency = std::stoll(vocabulary_info[2].c_str());
@@ -96,6 +95,10 @@ PostingList::PostingList(const char* index_file_path,
 
   decoded_block_sizes = nullptr;
   encoded_block_sizes = nullptr;
+
+  if (this->norm_doc_len.size() == 0) {
+    this->norm_doc_len = InitializeNormDocLen(norm_doc_len_file);
+  }
 }
 
 PostingList::~PostingList() {
@@ -152,7 +155,6 @@ void PostingList::StartIteration() {
         tmp_posting_holder[ind + j] += tmp_posting_holder[ind + j - 2];
       }
     }
-
     ind += n_uncompressed_data;
   }
 
@@ -609,6 +611,7 @@ bool PostingList::LoadPostingBlock(size_t block_id) {
 }
 
 float PostingList::CalculateBM25(uint32_t tf, uint32_t doc_id) const {
+  if (!isBM25) return tf;
   static constexpr float k1 = 1.2; // 1.2
   static constexpr float b = 0.5;
 
@@ -616,7 +619,7 @@ float PostingList::CalculateBM25(uint32_t tf, uint32_t doc_id) const {
   float ftf = tf * 1.0f;
   float fdf = document_frequency * 1.0f;
   float tf_weight = query_frequency * ftf * (k1 + 1.0f)
-      / (ftf + k1 * (1.0f - b + b * norm_doc_len[doc_id - 1]));
+      / (ftf + k1 * (1.0f - b + b * this->norm_doc_len[doc_id]));
   float idf_weight = std::max(1.0E-6,
       log((NUM_TOTAL_DOC * 1.0f - fdf + 0.5f) / (fdf + 0.5f)));
   return tf_weight * idf_weight;

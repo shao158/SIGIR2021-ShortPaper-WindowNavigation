@@ -1,0 +1,956 @@
+Query:family,1:obama,1:tree,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 118488
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:and,1:casino,1:french,1:lick,1:resort,1
+No posting available: french
+Query:getting,1:organized,1
+No posting available: getting
+Query:toilet,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 2767
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:college,1:mitchell,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 55046
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:kcs,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 83
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:air,1:information,1:travel,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 307498
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:appraisals,1
+No posting available: appraisals
+Query:car,1:parts,1:used,1
+No posting available: used
+Query:cheap,1:internet,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 69751
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:classes,1:gmat,1:prep,1
+No posting available: classes
+Query:djs,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 1541
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:map,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 124485
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:dinosaurs,1
+No posting available: dinosaurs
+Query:espn,1:sports,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 48294
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:and,1:arizona,1:fish,1:game,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 4 of 545687
+Number of eval: 0
+dpm and spm: 0 0 256
+Query:poker,1:tournaments,1
+No posting available: tournaments
+Query:budget,1:calculator,1:wedding,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 39285
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:current,1:the,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 673471
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:defender,1
+No posting available: defender
+Query:volvo,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 1079
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:rick,1:warren,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 10521
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:yahoo,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 20343
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:diversity,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 10287
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:euclid,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 532
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:heart,1:lower,1:rate,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 111282
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:starbucks,1
+No posting available: starbucks
+Query:inuyasha,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 161
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:2,1:games,1:ps,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 281053
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:diabetes,1:education,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 81675
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:atari,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 766
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:design,1:hosting,1:website,1
+No posting available: hosting
+Query:elliptical,1:trainer,1
+No posting available: elliptical
+Query:cell,1:phones,1
+No posting available: phones
+Query:hoboken,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 376
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:gps,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 4575
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:chef,1:pampered,1
+No posting available: pampered
+Query:adoption,1:dogs,1:for,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 467807
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:disneyland,1:hotel,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 32584
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:michworks,1
+No posting available: michworks
+Query:center,1:convention,1:county,1:orange,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 4 of 164202
+Number of eval: 0
+dpm and spm: 0 0 256
+Query:man,1:music,1:the,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 596203
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:garden,1:secret,1:the,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 537926
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:map,1:of,1:states,1:the,1:united,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 5 of 1268319
+Number of eval: 0
+dpm and spm: 0 0 320
+Query:panels,1:solar,1
+No posting available: panels
+Query:alexian,1:brothers,1:hospital,1
+No posting available: brothers
+Query:annuity,1:indexed,1
+No posting available: indexed
+Query:antenna,1:wilson,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 10723
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:designs,1:flame,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 17198
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:dog,1:heat,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 23684
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:hooves,1:horse,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 13163
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:avp,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 158
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:channel,1:discovery,1:store,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 85487
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:of,1:president,1:states,1:the,1:united,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 5 of 1182705
+Number of eval: 0
+dpm and spm: 0 0 320
+Query:iron,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 9876
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:charleston,1:sc,1:uss,1:yorktown,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 4 of 11372
+Number of eval: 0
+dpm and spm: 0 0 256
+Query:ct,1:jobs,1
+No posting available: jobs
+Query:penguins,1
+No posting available: penguins
+Query:a,1:build,1:fence,1:how,1:to,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 5 of 1126200
+Number of eval: 0
+dpm and spm: 0 0 320
+Query:bellevue,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 1042
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:worm,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 2661
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:border,1:patrol,1:texas,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 43517
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:flushing,1
+No posting available: flushing
+Query:moths,1
+No posting available: moths
+Query:korean,1:language,1
+No posting available: korean
+Query:income,1:online,1:return,1:tax,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 4 of 295020
+Number of eval: 0
+dpm and spm: 0 0 256
+Query:levels,1:vldl,1
+No posting available: levels
+Query:pvc,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 1004
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:instructions,1:sewing,1
+No posting available: instructions
+Query:be,2:is,1:not,1:or,1:question,1:that,1:the,1:to,2
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 8 of 2546654
+Number of eval: 0
+dpm and spm: 0 0 512
+Query:in,1:india,1:living,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 541216
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:sun,1:the,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 519958
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:neil,1:young,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 40832
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:kiwi,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 739
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:tornadoes,1
+No posting available: tornadoes
+Query:gardens,1:raised,1
+No posting available: gardens
+Query:bobcat,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 556
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:dieting,1
+No posting available: dieting
+Query:voyager,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 1130
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:keyboard,1:reviews,1
+No posting available: reviews
+Query:afghanistan,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 8616
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:joints,1
+No posting available: joints
+Query:memory,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 19865
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:continental,1:plates,1
+No posting available: plates
+Query:journal,1:milwaukee,1:sentinel,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 40345
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:bart,1:sf,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 4842
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:invented,1:music,1:who,1
+No posting available: invented
+Query:forearm,1:pain,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 11361
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:ocd,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 315
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:mgb,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 59
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:er,1:show,1:tv,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 130967
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:the,1:wall,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 518687
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:raffles,1
+No posting available: raffles
+Query:titan,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 2082
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:at,1:earn,1:home,1:money,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 4 of 708471
+Number of eval: 0
+dpm and spm: 0 0 256
+Query:rice,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 7059
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:africa,1:south,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 112119
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:sat,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 11599
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:satellite,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 9294
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:puerto,1:rico,1:rincon,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 16899
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:carlton,1:lake,1:las,1:ritz,1:vegas,1
+No posting available: vegas
+Query:creek,1:farm,1:fickle,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 23669
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:cj,1:madam,1:walker,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 7451
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:child,1:indiana,1:support,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 161863
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:county,1:medical,1:services,1:sonoma,1
+No posting available: services
+Query:animal,1:cuts,1:reviews,1:universal,1
+No posting available: cuts
+Query:cass,1:county,1:missouri,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 48928
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:brewster,1:owen,1:ralph,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 8233
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:clinic,1:fl,1:jacksonville,1:mayo,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 4 of 23152
+Number of eval: 0
+dpm and spm: 0 0 256
+Query:brazil,1:map,1:of,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 629958
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:dogs,1:in,1:lymphoma,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 473428
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:gas,1:heater,1:kenmore,1:water,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 4 of 67178
+Number of eval: 0
+dpm and spm: 0 0 256
+Query:2140,1:hp,1:mini,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 16668
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:adobe,1:houses,1:indian,1
+No posting available: houses
+Query:laboratory,1:northwest,1:pacific,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 44326
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:board,1:california,1:franchise,1:tax,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 4 of 202643
+Number of eval: 0
+dpm and spm: 0 0 256
+Query:asbestos,1:dangers,1:of,1
+No posting available: dangers
+Query:day,1:in,1:pocket,1:poem,1:your,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 5 of 826897
+Number of eval: 0
+dpm and spm: 0 0 320
+Query:interview,1:thank,1:you,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 341231
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:computer,1:on,1:tv,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 493067
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:and,1:reach,1:sit,1:test,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 4 of 580081
+Number of eval: 0
+dpm and spm: 0 0 256
+Query:cemetery,1:culpeper,1:national,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 93537
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:disease,1:von,1:willebrand,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 28438
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:bowflex,1:power,1:pro,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 99643
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:and,1:butter,1:margarine,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 484397
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:capitol,1:map,1:us,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 492913
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:county,1:dutchess,1:tourism,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 49902
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:atypical,1:cells,1:squamous,1
+No posting available: cells
+Query:food,1:iowa,1:program,1:stamp,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 4 of 184106
+Number of eval: 0
+dpm and spm: 0 0 256
+Query:fact,1:on,1:uranus,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 455707
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:employer,1:equal,1:opportunity,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 84021
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:day,1:mothers,1:songs,1
+No posting available: mothers
+Query:all,1:are,1:created,1:equal,1:men,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 5 of 739712
+Number of eval: 0
+dpm and spm: 0 0 320
+Query:electronic,1:shoot,1:skeet,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 36841
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:nile,1:of,1:source,1:the,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 4 of 1057216
+Number of eval: 0
+dpm and spm: 0 0 256
+Query:american,1:military,1:university,1
+No posting available: american
+Query:and,1:gem,1:rock,1:shows,1
+No posting available: shows
+Query:chemical,1:company,1:jax,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 117154
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:mountain,1:news,1:rocky,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 194584
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:east,1:high,1:ridge,1:school,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 4 of 241693
+Number of eval: 0
+dpm and spm: 0 0 256
+Query:dmv,1:registration,1:va,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 35759
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:illinois,1:state,1:tax,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 233140
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:arkadelphia,1:club,1:health,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 119216
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:for,1:sale,1:trombone,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 482444
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:for,1:shade,1:vines,1
+No posting available: vines
+Query:library,1:regional,1:sherwood,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 78989
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:personal,1:property,1:tangible,1:tax,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 4 of 302949
+Number of eval: 0
+dpm and spm: 0 0 256
+Query:and,1:imclone,1:martha,1:stewart,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 4 of 488424
+Number of eval: 0
+dpm and spm: 0 0 256
+Query:at,1:national,1:park,1:uplift,1:yellowstone,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 5 of 474419
+Number of eval: 0
+dpm and spm: 0 0 320
+Query:highway,1:patrol,1:tn,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 19046
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:403b,1
+No posting available: 403b
+Query:angular,1:cheilitis,1
+No posting available: cheilitis
+Query:pocono,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 220
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:figs,1
+No posting available: figs
+Query:last,1:painting,1:supper,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 200358
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:of,1:phoenix,1:university,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 580212
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:band,1:beatles,1:rock,1:the,1
+No posting available: beatles
+Query:design,1:septic,1:system,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 216328
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:porterville,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 85
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:grilling,1
+No posting available: grilling
+Query:for,1:furniture,1:small,1:spaces,1
+No posting available: spaces
+Query:dnr,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 540
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:arkansas,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 7181
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:hobby,1:stores,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 19608
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:blue,1:hummingbird,1:throated,1
+No posting available: throated
+Query:computer,1:programming,1
+No posting available: programming
+Query:barbados,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 5595
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:lipoma,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 32
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:battles,1:civil,1:in,1:the,1:war,1
+No posting available: battles
+Query:scooters,1
+No posting available: scooters
+Query:howard,1:ron,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 13999
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:a,1:becoming,1:paralegal,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 488963
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:fractures,1:hip,1
+No posting available: fractures
+Query:art,1:rock,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 82553
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:a,1:heartattack,1:of,1:signs,1
+No posting available: signs
+Query:strip,1:weather,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 35709
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:best,1:care,1:insurance,1:long,1:term,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 5 of 311759
+Number of eval: 0
+dpm and spm: 0 0 320
+Query:pork,1:tenderloin,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 2428
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:black,1:history,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 207004
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:hotels,1:newyork,1
+No posting available: hotels
+Query:coins,1:old,1
+No posting available: coins
+Query:quit,1:smoking,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 8957
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:city,1:kansas,1:mo,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 118453
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:civil,1:movement,1:right,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 115838
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:credit,1:report,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 132079
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:unc,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 906
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:vanuatu,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 4226
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:internet,1:phone,1:service,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 314865
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:gs,1:pay,1:rate,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 88973
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:brooks,1:brothers,1:clearance,1
+No posting available: brooks
+Query:churchill,1:downs,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 3905
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:condos,1:florida,1:in,1
+No posting available: condos
+Query:bags,1:clean,1:dog,1:up,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 4 of 224667
+Number of eval: 0
+dpm and spm: 0 0 256
+Query:breeds,1:designer,1:dog,1
+No posting available: breeds
+Query:pressure,1:washers,1
+No posting available: washers
+Query:sore,1:throat,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 2 of 4430
+Number of eval: 0
+dpm and spm: 0 0 128
+Query:flower,1:idaho,1:state,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 129440
+Number of eval: 0
+dpm and spm: 0 0 192
+Query:fairgrounds,1:indiana,1:state,1
+No posting available: fairgrounds
+Query:fybromyalgia,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 1 of 3
+Number of eval: 0
+dpm and spm: 0 0 64
+Query:airport,1:california,1:ontario,1
+Start query now. 
+Time cost: 0 ms. 
+Loaded postings blocks: 3 of 58656
+Number of eval: 0
+dpm and spm: 0 0 192
