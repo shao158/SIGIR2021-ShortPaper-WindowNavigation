@@ -80,7 +80,8 @@ public:
                        const char* vocabulary_file_path,
                        size_t dataset_size,
                        size_t constant_block_size,
-		       bool is_bm25);
+		       bool is_bm25,
+               const char* block_variable_size_file_path);
 
   BinaryIndex(const BinaryIndex&) = delete;
 

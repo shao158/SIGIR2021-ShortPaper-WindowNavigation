@@ -40,7 +40,7 @@ Authors: Jinjin Shao
 static constexpr size_t kTotalNumDocClueweb = 33836981;
 
 int main(int argc, char** argv) {
-  if (argc != 9) {
+  if (argc !=10) {
     std::cerr << "Usage: "
               << "./query_binary_index "
 	      << "norm_doc_len_path "
@@ -49,6 +49,7 @@ int main(int argc, char** argv) {
               << "query_file "
               << "retrieval_method "
               << "constant_block_size "
+              << "block_size_file "
               << "top_k " << "score[BM25, DeepImpact]" << std::endl;
     return 0;
   }
@@ -64,7 +65,8 @@ int main(int argc, char** argv) {
       /*vocabulary_file=*/argv[3],
       /*dataset_size=*/kTotalNumDocClueweb,
       /*constant_block_size=*/std::stoll(argv[6]),
-      /*is_bm25*/is_bm25);
+      /*is_bm25*/is_bm25,
+      /*block_size_file=*/argv[9]);
   if (my_index->GetVocabularySize() == 0) {
     std::cerr << "Failed to init a BinaryIndex. " << std::endl;
     delete my_index;
@@ -91,7 +93,6 @@ int main(int argc, char** argv) {
     std::vector<std::string> query_keywords(
         std::istream_iterator<std::string>{iss},
         std::istream_iterator<std::string>());
-
     std::vector<std::string> dedup_query_keywords;
     std::vector<uint64_t> query_keywords_frequency;
     std::map<std::string, uint64_t> count_frequency;

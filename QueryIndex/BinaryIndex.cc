@@ -94,7 +94,8 @@ BinaryIndex::BinaryIndex(const char* norm_doc_len_path,
                          const char* vocabulary_file_path,
                          size_t dataset_size,
                          size_t constant_block_size,
-			 bool is_bm25)
+			 bool is_bm25,
+       const char* block_variable_size_file_path)
     : NUM_TOTAL_DOC(dataset_size) {
   vocabulary_size = 0;
 
@@ -114,16 +115,15 @@ BinaryIndex::BinaryIndex(const char* norm_doc_len_path,
               << std::endl;
     return;
   }
-
-  // std::ifstream block_size_file(block_variable_size_file_path, std::ios::in);
-  // if (constant_block_size == 0 && !block_size_file.is_open()) {
-  //   index_file.close();
-  //   vocabulary_file.close();
-  //   std::cerr << "Failed to open block size file: "
-  //             << block_variable_size_file_path
-  //             << std::endl;
-  //   return;
-  // }
+  std::ifstream block_size_file(block_variable_size_file_path, std::ios::in);
+  if (constant_block_size == 0 && !block_size_file.is_open()) {
+    index_file.close();
+    vocabulary_file.close();
+    std::cerr << "Failed to open block size file: "
+              << block_variable_size_file_path
+              << std::endl;
+    return;
+  }
 
   // Start to build this BinaryIndex from all opened files.
 
@@ -136,24 +136,24 @@ BinaryIndex::BinaryIndex(const char* norm_doc_len_path,
     PostingList* curr = nullptr;
     
     if (constant_block_size == 0) {
-      // if (!getline(block_size_file, line)) {
-      //   std::cerr << "Failed to read a block size info. " << std::endl;
-      //   succ = false;
-      //   break;
-      // }
-      // std::istringstream iss2(line);
-      // std::vector<std::string> block_size_info( 
-      //     std::istream_iterator<std::string>{iss2},
-      //     std::istream_iterator<std::string>());
-      // if (!block_size_info[0].compare(vocabulary_info[0])) {
-      //   curr = new PostingList(index_file_path,
-      //                          vocabulary_info, block_size_info,
-      //                          constant_block_size, NUM_TOTAL_DOC);
-      // } else {
-      //   std::cerr << "Block size info has a mismatch: "
-      //             << block_size_info[0] << " vs. " << vocabulary_info[0]
-      //             << std::endl;
-      // }
+      if (!getline(block_size_file, line)) {
+        std::cerr << "Failed to read a block size info. " << std::endl;
+        succ = false;
+        break;
+      }
+      std::istringstream iss2(line);
+      std::vector<std::string> block_size_info( 
+          std::istream_iterator<std::string>{iss2},
+          std::istream_iterator<std::string>());
+      if (!block_size_info[0].compare(vocabulary_info[0])) {
+        curr = new PostingList(norm_doc_len_path,index_file_path,
+                               vocabulary_info, block_size_info,
+                               constant_block_size, NUM_TOTAL_DOC,is_bm25);
+      } else {
+        std::cerr << "Block size info has a mismatch: "
+                  << block_size_info[0] << " vs. " << vocabulary_info[0]
+                  << std::endl;
+      }
     } else {
       curr = new PostingList(norm_doc_len_path, index_file_path,
                              vocabulary_info, std::vector<std::string>(),
@@ -175,7 +175,7 @@ BinaryIndex::BinaryIndex(const char* norm_doc_len_path,
 
   index_file.close();
   vocabulary_file.close();
-  // block_size_file.close();
+  block_size_file.close();
 }
 
 BinaryIndex::~BinaryIndex() {
@@ -402,7 +402,6 @@ void BinaryIndex::RunBMWQueryWithMarkedPostingBlocksAndGivenTopK(
     std::vector<std::pair<uint32_t, float>>& top_k,
     std::set<uint32_t>& top_k_document_ids) {
   int num_keywords = query_postings.size();
-
   std::sort(query_postings.begin(), query_postings.end(), sortByCurrentDoc);
 
   uint32_t end_doc_id = NUM_TOTAL_DOC + 1;
@@ -780,7 +779,7 @@ std::vector<std::pair<uint32_t, float>> BinaryIndex::RunTPQuery(
 
   high_resolution_clock::time_point t3 = high_resolution_clock::now();
 
-  std::cout << "Number of intervals: " << all_intervals.size() << std::endl;
+  // std::cout << "Number of intervals: " << all_intervals.size() << std::endl;
 
   // assert(!vec_interval_size.empty());
 
@@ -879,9 +878,9 @@ std::vector<std::pair<uint32_t, float>> BinaryIndex::RunTPQuery(
       count_spm += query_postings[j]->CountSPM();
     }
 
-    std::cout << "Interval size: " << vec_interval_size[i]
-              << " tmp time: " << duration_cast<microseconds>(t01 - t00).count()
-              << std::endl;
+    // std::cout << "Interval size: " << vec_interval_size[i]
+    //           << " tmp time: " << duration_cast<microseconds>(t01 - t00).count()
+    //           << std::endl;
   }
 
   ////////////////////////////////////////////////////////////////////
@@ -944,12 +943,12 @@ std::vector<std::pair<uint32_t, float>> BinaryIndex::RunTPQuery(
   //               + duration_cast<milliseconds>(t7 - t6).count()
   //               + count_ms_below / 1000
   //           << " ms. " 
-  //           << "In detail: "
-  //           << duration_cast<milliseconds>(t1 - t0).count()
-  //           << " " << duration_cast<milliseconds>(t3 - t2).count()
-  //           << " " << duration_cast<milliseconds>(t5 - t4).count()
-  //           << " " << duration_cast<milliseconds>(t7 - t6).count()
-  //           << " " << count_ms_below / 1000
+  //           // << "In detail: "
+  //           // << duration_cast<milliseconds>(t1 - t0).count()
+  //           // << " " << duration_cast<milliseconds>(t3 - t2).count()
+  //           // << " " << duration_cast<milliseconds>(t5 - t4).count()
+  //           // << " " << duration_cast<milliseconds>(t7 - t6).count()
+  //           // << " " << count_ms_below / 1000
   //           << std::endl;
 
   // std::cout << "Loaded postings blocks: "
@@ -990,8 +989,8 @@ void BinaryIndex::Query(
   std::vector<PostingList*> query_postings;
   for (int i = 0; i < query_keywords.size(); i++) {
     if (all_postings.find(query_keywords[i]) == all_postings.end()) {
-      std::cout << "No posting available: "
-                 << query_keywords[i] << std::endl;
+      // std::cout << "No posting available: "
+      //            << query_keywords[i] << std::endl;
       return;
     }
     query_postings.emplace_back(all_postings[query_keywords[i]]);
@@ -1020,7 +1019,7 @@ void BinaryIndex::Query(
   high_resolution_clock::time_point t1 = high_resolution_clock::now();
 
   for (auto iter : top_k_accumulator) {
-    std::cout <<std::setw(9) << std::left << query_id << "\t" << "Q0" << "\t" << iter.first << "\t" << "0" << "\t" << iter.second << "\t" << "test" << std::endl;
+    // std::cout << query_id << "\t" << "Q0" << "\t" << iter.first << "\t" << "0" << "\t" << iter.second << "\t" << "test" << std::endl;
   }
 
   size_t count_total_blocks = 0, count_loaded_blocks = 0;
@@ -1036,9 +1035,9 @@ void BinaryIndex::Query(
   }
 
   if (std::strcmp(retrieval_method, "tp")) {
-    // std::cout << "Time cost: "
-    //           << duration_cast<milliseconds>(t1 - t0).count()
-    //           << " ms. " << std::endl;
+    std::cout << "Time cost: "
+              << duration_cast<milliseconds>(t1 - t0).count()
+              << " ms. " << std::endl;
     // std::cout << "Loaded postings blocks: " << count_loaded_blocks
     //           << " of " << count_total_blocks << std::endl;
     // std::cout << "Number of eval: " << count_eval_documents << std::endl;

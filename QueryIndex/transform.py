@@ -1,5 +1,6 @@
-import re
+import subprocess
 import os
+import re
 
 def transform(filename):  
     f = open(filename,"r+")
@@ -18,6 +19,14 @@ def transform(filename):
         #     print(new_matches)
     f.close()
 
+options = ["recip_rank","ndcg"]
 
-for filename in os.listdir("/home/carl/SIGIR2021-ShortPaper-WindowNavigation/QueryIndex/results"):
-    transform(filename)
+for option in options:
+    f = open("/home/carl/SIGIR2021-ShortPaper-WindowNavigation/QueryIndex/trec_result_1/" + option + ".txt","w+")
+    for filename in os.listdir("/home/carl/SIGIR2021-ShortPaper-WindowNavigation/QueryIndex/variable_bmw_result_trec"):
+        command = "./trec_eval -m " + option +" /share/msmarco-passage/qrels.dev.tsv /home/carl/SIGIR2021-ShortPaper-WindowNavigation/QueryIndex/variable_bmw_result_trec/" + filename
+        f.write("the result of :" + filename + "is: \n")
+        subprocess.run(command, shell=True, stdout=f)
+
+
+        
